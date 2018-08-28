@@ -1,0 +1,3 @@
+2018/08/07-00:00:41.185 5910 Reusing MANIFEST /home/alex/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/08/07-00:00:41.185 5910 Recovering log #3
+2018/08/07-00:00:41.187 5910 Reusing old log /home/alex/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000003.log 

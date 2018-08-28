@@ -1,0 +1,300 @@
+=====================================================
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/jaagr/polybar
+;
+;   The README contains alot of information
+;
+;=====================================================
+
+[colors]
+;background = #333
+background = #00000000
+background-alt = #444
+foreground = #dfdfdf
+foreground-alt = #AAA
+primary = #ffb52a
+secondary = #e60053
+alert = #bd2c40
+
+[bar/top]
+monitor = eDP1
+width = 100%
+height = 27
+radius = 6.0
+fixed-center = true
+bottom = false
+
+background =  ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #f00
+
+border-size = 4
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 3
+module-margin-right = 0
+
+font-0 = "Roboto:pixelsize=13;1"
+font-1 = unifont:fontformat=truetype:size=12:antialias=false;0
+font-2 = "Wuncon Siji:pixelsize=9;1"
+font-3 = "Font Awesome 5 Free:style=Regular:pixelsize=12;1"
+font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=12;1"
+font-5 = "Font Awesome 5 Brands:pixelsize=12;1"
+font-6 = Hack:pixelsize=9;1
+
+modules-left = i3
+modules-center = xwindow
+;weather update installed
+modules-right = xbacklight volume xkeyboard battery date powermenu
+
+tray-position = right
+tray-padding = 1
+
+override-redirect = false
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[module/update]
+type = custom/script
+label-foreground = ${colors.foreground-alt}
+
+interval = 30
+format = <label>
+label =  %output%
+
+exec = yay -Pu | wc -l
+
+[module/installed]
+type = custom/script
+label-foreground = ${colors.foreground-alt}
+
+interval = 3600
+format = <label>
+label =  %output%
+
+exec = pacman -Q | wc -l
+
+[module/weather]
+type = custom/script
+interval = 10
+label = %{A: xdg-open 'https\://www.google.com/search?q=weather' &:} %output%%{A}
+label-foreground = ${colors.foreground-alt}
+exec = cat /tmp/weather
+
+[module/xwindow]
+type = internal/xwindow
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = caps lock
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.primary}
+
+label-layout = %layout%
+label-layout-underline = ${colors.primary}
+
+;label-indicator-padding = 2
+;label-indicator-margin = 1
+;label-indicator-underline = ${colors.primary}
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+
+ws-icon-0 = "1;"
+ws-icon-1 = "2;"
+ws-icon-2 = "3;"
+ws-icon-3 = "4;"
+ws-icon-4 = "5;5"
+ws-icon-5 = "6;6"
+ws-icon-6 = "7;7"
+ws-icon-7 = "8;8"
+ws-icon-8 = "9;9"
+ws-icon-9 = "10;"
+
+wrapping-scroll = false
+
+; Only show workspaces on the same output as the bar
+pin-workspaces = false
+
+label-mode-padding = 3
+;label-mode-margin = 1
+label-mode-foreground = #000
+;label-mode-background = ${colors.primary}
+
+; focused = Active workspace on focused monitor
+label-focused = %icon%
+label-focused-background = ${colors.background-alt}
+label-focused-underline = ${colors.primary}
+label-focused-padding = 3
+;label-focused-margin = 1
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused = %icon%
+label-unfocused-padding = 3
+;label-unfocused-margin = 1
+
+; visible = Active workspace on unfocused monitor
+;label-visible = %icon%
+;label-visible-background = ${self.label-focused-background}
+;label-visible-underline = ${self.label-focused-underline}
+;label-visible-padding = ${self.label-focused-padding}
+
+; urgent = Workspace with urgency hint set
+label-urgent = %icon%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 3
+;label-urgent-margin = 1
+
+[module/xbacklight]
+type = internal/xbacklight
+
+format-prefix = 
+format-prefix-foreground = ${colors.foreground-alt}
+format-padding = 1
+format-prefix-underline = ${colors.primary}
+
+label = %percentage%%
+label-padding-left = 1
+label-underline = ${colors.primary}
+
+[module/backlight-acpi]
+inherit = module/xbacklight
+type = internal/backlight
+card = intel_backlight
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = "cpu"
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = ${colors.primary}
+
+label = %percentage:2%%
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = "ram"
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = ${colors.primary}
+
+label = %percentage_used:2%%
+
+[module/wlan]
+type = internal/network
+interface = wlp58s0
+interval = 3
+
+format-connected = <label-connected>
+format-connected-underline = ${colors.primary}
+label-connected = %essid%
+
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.foreground-alt}
+
+[module/date]
+type = internal/date
+interval = 5
+
+date = %I:%M %p
+date-alt = %Y-%m-%d %I:%M %p
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = ${colors.primary}
+
+
+[module/volume]
+type = internal/volume
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+format-volume = <ramp-volume> <label-volume>
+format-volume-underline = ${colors.primary}
+
+ramp-volume-foreground = ${colors.primary}
+
+label-muted = " muted"
+label-muted-foreground = ${colors.foreground-alt}
+label-muted-underline = ${colors.primary}
+
+
+mapping = false
+format = <label>
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = AC
+full-at = 99
+
+format-charging-underline = ${colors.primary}
+format-discharging-underline = ${colors.primary}
+
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
+
+format-full-prefix = " "
+format-full-prefix-foreground = ${colors.foreground-alt}
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-foreground = ${colors.foreground-alt}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-framerate = 750
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+
+format = <ramp> <label>
+format-underline = ${colors.primary}
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp2_input
+label = %temperature%
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+;ramp-foreground = ${colors.foreground-alt}
+
+[module/powermenu]
+type = custom/script
+exec = echo ""
+click-left = i3-msg exit
+label-underline = ${colors.primary}
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+; vim:ft=dosini

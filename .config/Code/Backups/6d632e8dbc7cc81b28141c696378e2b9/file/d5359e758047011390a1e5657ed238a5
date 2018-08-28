@@ -1,0 +1,21 @@
+file:///home/alex/Documents/VS%20Code%20Projects/testPython.py
+def is_valid_IP(strng):
+
+    newList = strng.split('.')
+
+    if len(newList) != 4:
+        return(print("False"))
+    for i in newList:
+        for j in i:
+            if j.isalpha() or j == ' ':
+                return(print("False"))
+        if not 0 <= int(i) <= 255:
+            return(print("False"))
+        if i[:1] == '0' and len(i) > 1:
+            return(print("False"))
+
+    print(newList)
+
+    return(print("True"))
+
+is_valid_IP('12.34.56.1')

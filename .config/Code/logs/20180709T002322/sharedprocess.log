@@ -1,0 +1,60 @@
+[2018-07-09 00:23:25.495] [sharedprocess] [info] main {"machineId":"f2823b6a4fe6835e280494d7450ce0870589ae9e2da28a11a3b0ed85e2df0661"}
+[2018-07-09 00:23:25.543] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:23:25.614] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:23:25.623] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:23:25.626] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:23:25.682] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:23:25.687] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:23:25.690] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:23:26.024] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:23:30.143] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:23:30.147] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:23:30.153] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:23:30.166] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:23:30.209] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:23:30.212] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:23:30.222] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:24:05.500] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-07-09 00:24:26.562] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:24:26.566] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:24:26.571] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:24:26.598] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:24:26.600] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:24:26.623] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:24:26.719] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:24:26.729] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:24:26.735] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:24:26.740] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:24:29.711] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:24:30.796] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:26:13.808] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:26:13.813] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:26:13.819] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:26:13.895] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:26:13.899] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:26:13.903] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:29:29.751] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:30:39.334] [sharedprocess] [info] Installing extension: vscode-theme-onedark
+[2018-07-09 00:30:39.340] [sharedprocess] [info] Scanned user extensions: 4
+[2018-07-09 00:30:40.225] [sharedprocess] [info] Downloaded extension: vscode-theme-onedark
+[2018-07-09 00:30:40.262] [sharedprocess] [info] Extracted extension to /home/alex/.vscode/extensions/.akamud.vscode-theme-onedark-2.1.0: akamud.vscode-theme-onedark-2.1.0
+[2018-07-09 00:30:40.262] [sharedprocess] [info] Renamed to /home/alex/.vscode/extensions/akamud.vscode-theme-onedark-2.1.0
+[2018-07-09 00:30:40.262] [sharedprocess] [info] Installation completed. akamud.vscode-theme-onedark-2.1.0
+[2018-07-09 00:30:40.266] [sharedprocess] [info] Extensions installed successfully: akamud.vscode-theme-onedark
+[2018-07-09 00:30:40.410] [sharedprocess] [info] Scanned user extensions: 5
+[2018-07-09 00:30:40.450] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:30:50.066] [sharedprocess] [info] Scanned user extensions: 5
+[2018-07-09 00:30:50.103] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:30:53.003] [sharedprocess] [info] Scanned user extensions: 5
+[2018-07-09 00:30:53.010] [sharedprocess] [info] Scanned user extensions: 5
+[2018-07-09 00:30:53.014] [sharedprocess] [info] Scanned user extensions: 5
+[2018-07-09 00:30:53.030] [sharedprocess] [info] Scanned user extensions: 5
+[2018-07-09 00:30:53.032] [sharedprocess] [info] Scanned user extensions: 5
+[2018-07-09 00:30:53.047] [sharedprocess] [info] Scanned user extensions: 5
+[2018-07-09 00:30:53.115] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:30:53.119] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:30:53.126] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:30:53.129] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-09 00:30:56.589] [sharedprocess] [info] Scanned user extensions: 5
+[2018-07-09 00:31:05.702] [sharedprocess] [info] Scanned user extensions: 5
+[2018-07-09 00:35:56.627] [sharedprocess] [info] Scanned user extensions: 5

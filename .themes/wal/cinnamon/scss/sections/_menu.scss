@@ -1,0 +1,272 @@
+// popup-menu-boxpointer is only for cinnamon < version 3.2
+.popup-menu-boxpointer {
+    -arrow-border-radius: $roundness;
+    -arrow-background-color: $dark_bg_color;
+    -arrow-border-width: 1px;
+    -arrow-border-color: $exterior_border;
+    -arrow-base: 24px;
+    -arrow-rise: 11px;
+}
+.menu {
+    @extend %menu-width;
+    @extend %shared-menu;
+}
+// popup-menu is only for cinnamon < version 3.2
+.popup-menu {
+    @extend %menu-width;
+    @extend %shared-menu;
+}
+// scale view right click menu
+.popup-combo-menu {
+    @extend %shared-menu;
+}
+.popup-menu-arrow {
+    icon-size: 1.14em;
+}
+// applet submenus
+.popup-sub-menu {
+    @extend %bg-grad-to-bottom;
+    border: 1px solid $interior_border;
+    border-radius: $roundness;
+    padding: 5px;
+    margin: 0.5em 0;
+    .popup-menu-item {
+        &:ltr {
+        }
+        &:rtl {
+        }
+    }
+    StScrollBar {
+        padding: 2px;
+        min-width: 0.8em;
+        min-height: 0.8em;
+        StBin {
+            &#trough {
+                background-color: $scrollbar_bg_color;
+                border-radius: $roundness;
+            }
+            &#vhandle {
+                background-color: $scrollbar_slider_color;
+                border-radius: $roundness;
+                &:hover {
+                    background-color: $scrollbar_slider_hover_color;
+                }
+            }
+        }
+    }
+}
+.popup-menu-content {
+    padding: 0;
+}
+// individual menu entries are themed here
+.popup-menu-item {
+    padding: .5em .7em;
+    spacing: 1em;
+    color: $dark_fg_color;
+    &:active {
+        background-color: $selected_bg_color;
+        border-radius: $roundness;
+        color: $selected_fg_color;
+    }
+    &:insensitive {
+        font-style: italic;
+    }
+}
+.popup-image-menu-item {
+    color: $dark_fg_color;
+}
+.popup-combobox-item {
+    spacing: 1em;
+}
+// sliders and separators in menus
+.popup-separator-menu-item {
+    @extend %separator-shared;
+    -gradient-direction: horizontal;
+}
+.popup-slider-menu-item {
+    @extend %slider-shared;
+}
+.popup-device-menu-item {
+    spacing: .5em;
+}
+.popup-inactive-menu-item {
+    font-style: italic;
+    color: $dark_fg_color;
+}
+.popup-subtitle-menu-item {
+    font-weight: bold;
+}
+.popup-menu-icon {
+    icon-size: 1.14em;
+}
+.popup-menu-item-dot {
+}
+.popup-submenu-menu-item:open {
+}
+.popup-alternating-menu-item:alternate {
+    font-weight: bold;
+}
+// toggles in menus
+.toggle-switch {
+    width: 64px;
+    height: 22px;
+}
+.toggle-switch-us {
+    background-image: url(assets/toggle-off-us.svg);
+    &:checked {
+        background-image: url(assets/toggle-on-us.svg);
+    }
+}
+.toggle-switch-intl {
+    background-image: url(assets/toggle-off-intl.svg);
+    &:checked {
+        background-image: url(assets/toggle-on-intl.svg);
+    }
+}
+.nm-menu-item-icons {
+    spacing: .5em;
+    icon-size: 1.14em;
+}
+// all the remaining code is for the main menu applet
+// it includes some themeing to ensure constency in right click context menu behavior in third party menu applets.
+.menu-favorites-box {
+    padding: 10px;
+    border: 1px solid $interior_border;
+    border-radius: $roundness;
+    @extend %bg-grad-to-right;
+    transition-duration: 150;
+    StScrollView .menu-context-menu StBoxLayout > .popup-menu-item {
+        @extend %menu-context-shared-workaround;
+    }
+}
+.menu-favorites-button {
+    padding: .5em .7em;
+    &:hover {
+        background-color: $selected_bg_color;
+        border-radius: $roundness;
+        color: $selected_fg_color;
+    }
+}
+.menu-places-box {
+    padding: 10px;
+    border: 1px solid $interior_border;
+    border-radius: $roundness;
+    @extend %bg-grad-to-right;
+}
+.menu-places-button {
+    padding: .5em .7em;
+}
+.menu-categories-box {
+    padding: 10px;
+}
+.menu-applications-inner-box {
+    padding: 10px;
+    border-radius: $roundness;
+    border: 1px solid $interior_border;
+    @extend %bg-grad-to-right;
+    StScrollView {
+        @extend %menu-context-shared;
+    }
+}
+.menu-applications-outer-box {
+    padding: 10px;
+    border: 1px solid $interior_border;
+    border-radius: $roundness;
+    @extend %bg-grad-to-right;
+}
+.menu-application-button {
+    padding: .5em .7em;
+    &:highlighted {
+        font-weight: bold;
+    }
+}
+.menu-application-button-selected {
+    padding: .5em .7em;
+    background-color: $selected_bg_color;
+    border-radius: $roundness;
+    color: $selected_fg_color;
+    &:highlighted {
+        font-weight: bold;
+    }
+}
+.menu-application-button-label {
+    &:ltr {
+        padding-left: 5px;
+    }
+    &:rtl {
+        padding-right: 5px;
+    }
+}
+.menu-category-button {
+    padding: .5em .7em;
+}
+.menu-category-button-greyed {
+    padding: .5em .7em;
+    color: $dark_fg_color;
+    font-style: italic;
+}
+.menu-category-button-selected {
+    padding: .5em .7em;
+    background-color: $selected_bg_color;
+    border-radius: $roundness;
+    color: $selected_fg_color;
+    &:hover {
+    }
+}
+.menu-category-button-label {
+    &:ltr {
+        padding-left: 5px;
+    }
+    &:rtl {
+        padding-right: 5px;
+    }
+}
+// in the stock menu app descriptions are shown at the base of the menu
+.menu-selected-app-box {
+    padding: .25em .5em;
+    text-align: right;
+    height: 2.5em;
+    &:rtl {
+    }
+}
+.menu-selected-app-title {
+    font-weight: bold;
+}
+.menu-selected-app-description {
+    max-width: 150px;
+}
+// the menus search box
+.menu-search-box {
+    &:ltr {
+        padding-left: 30px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    &:rtl {
+        padding-right: 30px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+}
+#menu-search-entry {
+    @extend %dialog-entry;
+    margin: 0.5em 0;
+    &:focus {
+        border: 1px solid $selected_border;
+    }
+    &:hover {
+    }
+}
+.menu-search-entry-icon {
+    icon-size: 1em;
+    color: $tooltip_fg_color;
+}
+// cinnVIIstark menu right click favourites context menu
+.starkmenu-favorites-box {
+    .menu-context-menu {
+        @extend %menu-context-shared;
+    }
+    StScrollView .menu-context-menu StBoxLayout > .popup-menu-item {
+        @extend %menu-context-shared-workaround;
+    }
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Youtube Playback Speed Control</title>
+	</head>
+	<body>
+
+	<div role="tabpanel">
+		<div class="smart-green">
+			<h1>Youtube Playback Speed Control</h1>
+		</div>
+		<div>
+		<!-- Nav tabs -->
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+				<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+				<li role="presentation"><a href="#features" aria-controls="features" role="tab" data-toggle="tab">Features</a></li>
+				<li role="presentation"><a href="#donations" aria-controls="donations" role="tab" data-toggle="tab">Donations</a></li>
+				<a href="https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik/reviews?hl=en" id="rateThisExtension" class="btn btn-default pull-right">Rate 5 <span class="glyphicon glyphicon-star" aria-hidden="true"></span></a>
+			</ul>
+		</div>
+		</br>
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" id="home">
+				<div class="smart-green">
+					<p>With HTML5 Video playback on YouTube, you can speed up and slow down the currently watching videos. I loved this feature. But still it was too many mouse clicks for me. So, this extension was created to control the playback speed using keyboard. Press '+' to increase the playback speed and '-' to decrease the playback speed. If '+' and '-' keys are already used by other extension or you want to use different key, you can change this default keys from settings tab.</p>
+					<p><img src="YouTubeSpeedOption.jpg" /></p>
+					<p>This extension even works for the HTML5 YouTube player embedded in other website. Make sure that the player is in focus. A website can embed multiple YouTube player and the keyboard shortcuts will effect the currently playing one. If you feel it's not working for embeded player, it may be that you haven't focused the embeded player.</p>
+					<p><img src="YPSCIconIndicator.jpg" /></p>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane active" id="features">
+				<div class="smart-green">
+					<h3>Version 0.0.5</h3>
+					<ul>
+						<li>Added an option to disable Shift+MouseScroll combination.</li>
+						<li>Shows the speed control for 300 millisecond when the speed is changed.</li>
+					</ul>
+					<h3>Version 0.0.4</h3>
+					<ul>
+						<li>Added a reset playback speed to 1x feature. By default it's '*', but user can change. Clicking the playback rate display also reset to 1x.</li>
+						<li>Added increase or decrease of playback speed using Shift+MouseScroll combination.</li>
+						<li>Added 'Up Arrow' and 'Down Arrow' to key options (Request from user).</li>
+					</ul>
+					<h3>Version 0.0.3</h3>
+					<ul>
+						<li>Made extension more stable. The extension successfully loads every time now (unlike its predecessor where CTRL+F5 was needed sometime) </li>
+						<li>Fixed the bug with playlist not advancing to next video. </li>
+						<li>Fixed the bug of comments not loading sometime. </li>
+						<li>Made the extension work with embedded videos almost all the time.</li>
+						<li>Supports user defined playback rate increment that user can set from settings.</li>
+						<li>Added more speed options. Supports higher playback rate. Note: Sound will not work for higher than 4x.</li>
+					</ul>
+					<h3>Version 0.0.2</h3>
+					<ul>
+						<li>Updated to a user friendly display of the playback rate and added increase/decrease button. </li>
+						<li>Fixed the bug of '+' and '-' buttons located next to backspace not working. Only the '+' and '-' buttons of Numeric keypad was working. </li>
+						<li>Added various mode of playback rate display (Always, Hide/Show, Simple and None).</li>
+					</ul>
+					<h3>Version 0.0.1</h3>
+					<ul>
+						<li>Basic functionality of changing youtube playback rate using keyboard. </li>
+					</ul>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="settings">
+				<div class="row"><h4>Change the playback speed increase/decrease key.</h4></div>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="smart-green col-md-10">
+					<div class="row">
+						Decrease speed
+						<select id="slowerKeyInput"></select>						
+					</div>
+					<div class="row">
+						Increase speed
+						<select id="fasterKeyInput"></select>
+					</div>
+					<div class="row">
+						Reset speed
+						<select id="resetKeyInput"></select>
+					</div>
+
+					<div class="row">
+						Speed Change Step
+						<input id="speedStep" type="text" value=""/>
+					</div>
+					<div class="row">
+						<input id="allowMouseWheel" type="checkbox"/>
+						Enable Shift+MouseScroll to control playback speed 
+					</div>
+					<div class="row">
+						<input id="rememberSpeed" type="checkbox"/>
+						Remember Playback Speed For All Videos
+					</div>
+					</br>
+					<div class="row">
+						<label for="displayOption">Display Option</label>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<input type="radio" name="displayOption" id="Always" value="Always">Always Display Playback Panel
+							<p><img src="YPSCDisplayOptionAlways.jpg" /></p>
+						</div>
+						<div class="col-md-3">
+							<input type="radio" name="displayOption" id="FadeInFadeOut" value="FadeInFadeOut" checked>Hide/Show Playback Panel
+							<p><img src="YPSCDisplayOptionHideShow.jpg" /></p>
+						</div>
+						<div class="col-md-3">
+							<input type="radio" name="displayOption" id="Simple" value="Simple">Simple No Button Playback Panel
+							<p><img src="YPSCDisplayOptionSimple.jpg" /></p>
+						</div>
+						<div class="col-md-3">
+							<input type="radio" name="displayOption" id="None" value="None">Never Display Playback Panel
+							<p><img src="YPSCDisplayOptionNone.jpg" /></p>
+						</div>
+					</div>
+					<div id="status">&nbsp;</div>
+					<div>
+						<button id="save">
+							Save
+						</button>
+						<button id="restore">
+							Reset to default
+						</button>
+					</div>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="donations">
+				<div class="row"><h4>Feel free to support the development and enhancement of the extension.</h4></div>
+				</br>
+				<div class="donation">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	
+
+<script src="../../lib/jquery/jquery-2.1.1.min.js">
+</script>
+
+
+	<link rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.css">
+	
+
+<script src="../../lib/bootstrap/js/bootstrap.min.js">
+</script>
+
+
+	
+
+<script src="options.js">
+</script>
+
+
+	<link rel = "stylesheet" href = "../../css/smart-green.css"/>
+
+	</body>
+</html>
+

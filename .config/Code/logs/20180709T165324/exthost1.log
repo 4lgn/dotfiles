@@ -1,0 +1,16 @@
+[2018-07-09 16:53:26.015] [exthost1] [info] extension host started
+[2018-07-09 16:53:26.034] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-07-09 16:53:26.034] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/out/extension
+[2018-07-09 16:53:26.093] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-07-09 16:53:26.093] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/out/main
+[2018-07-09 16:53:26.274] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-07-09 16:53:26.274] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/out/extension
+[2018-07-09 16:53:26.287] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-07-09 16:53:26.287] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/search-rg/out/extension
+[2018-07-09 16:53:26.295] [exthost1] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-07-09 16:53:26.295] [exthost1] [info] ExtensionService#loadCommonJSModule /home/alex/.vscode/extensions/vscodevim.vim-0.14.2/out/extension
+[2018-07-09 16:53:26.693] [exthost1] [info] eager extensions activated
+[2018-07-09 16:53:26.696] [exthost1] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-07-09 16:53:26.696] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/python/out/pythonMain
+[2018-07-09 16:53:26.697] [exthost1] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-07-09 16:53:26.697] [exthost1] [info] ExtensionService#loadCommonJSModule /home/alex/.vscode/extensions/ms-python.python-2018.6.0/out/client/extension

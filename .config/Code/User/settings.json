@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "materialTheme.fixIconsRunning": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#edba2f"
+    },
+    "editor.fontFamily": "'Source Code Pro'",
+    "editor.fontSize": 14
+}

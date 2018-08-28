@@ -1,0 +1,21 @@
+set $wallpaper /home/alex/Documents/wallpapers/Favourites/wallhaven-641710.jpg
+
+set $background #14141f
+set $foreground #c4c4c7
+
+set $color0 #14141f
+set $color1 #2b50aa
+set $color2 #4f4eaa
+set $color3 #6d61ad
+set $color4 #9f6fab
+set $color5 #aa5c86
+set $color6 #ab4f60
+set $color7 #c4c4c7
+set $color8 #4e4e57
+set $color9 #2b50aa
+set $color10 #4f4eaa
+set $color11 #6d61ad
+set $color12 #9f6fab
+set $color13 #aa5c86
+set $color14 #ab4f60
+set $color15 #c4c4c7

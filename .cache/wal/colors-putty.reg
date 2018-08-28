@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\Default%20Settings]]
+"colour0"="20,20,31"
+"colour1"="43,80,170"
+"colour2"="79,78,170"
+"colour3"="109,97,173"
+"colour4"="159,111,171"
+"colour5"="170,92,134"
+"colour6"="171,79,96"
+"colour7"="196,196,199"
+"colour8"="78,78,87"
+"colour9"="43,80,170"
+"colour10"="79,78,170"
+"colour11"="109,97,173"
+"colour12"="159,111,171"
+"colour13"="170,92,134"
+"colour14"="171,79,96"
+"colour15"="196,196,199"
