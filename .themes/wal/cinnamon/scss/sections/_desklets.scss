@@ -1,7 +1,8 @@
 // desklets - the base .desklet selector is for 'undecorated' desklets however some subtle background themeing is desirable
 // to maintain visibility irrespctive of wallpaper and to allow for the highlighting scheme to work
 .desklet {
-    padding: 10px;
+    font-size: 0.9em;
+    padding: 8px;
     color: $dark_fg_color;
     border-radius: $roundness;
     background-color: $dark_bg_color_trans;
@@ -12,6 +13,8 @@
 // these do not inherit from .desklet
 .desklet-with-borders {
     @extend %desklet-shared;
+
+    font-size: 0.9em;
     border-radius: $roundness;
     &:highlight {
         background-color: $selected_bg_color;
@@ -19,6 +22,8 @@
 }
 .desklet-with-borders-and-header {
     @extend %desklet-shared;
+
+    font-size: 0.9em;
     border-radius-bottomleft: $roundness;
     border-radius-bottomright: $roundness;
     &:highlight {
@@ -27,6 +32,7 @@
 }
 .desklet-header {
     @extend %desklet-shared;
+
     font-size: 1.2em;
     border-radius-topleft: $roundness;
     border-radius-topright: $roundness;
@@ -36,6 +42,7 @@
 }
 .photoframe-box {
     @extend %desklet-shared;
+
     border-radius: $roundness;
     &:highlight {
         background-color: $selected_bg_color;

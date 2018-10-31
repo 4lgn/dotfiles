@@ -1,12 +1,14 @@
 // on screen preview of windows tiling placement
 .tile-preview {
     @extend %tile-shared;
+
     &.snap {
         @extend %tile-shared-snap;
     }
 }
 .tile-hud {
     @extend %tile-shared;
+
     &.snap {
         @extend %tile-shared-snap;
     }

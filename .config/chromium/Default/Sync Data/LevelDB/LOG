@@ -1,3 +1,3 @@
-2018/08/28-21:09:29.805 8842 Reusing MANIFEST /home/alex/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2018/08/28-21:09:29.806 8842 Recovering log #3
-2018/08/28-21:09:29.806 8842 Reusing old log /home/alex/.config/chromium/Default/Sync Data/LevelDB/000003.log 
+2018/10/31-16:33:21.800 11327 Reusing MANIFEST /home/alex/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2018/10/31-16:33:21.800 11327 Recovering log #10
+2018/10/31-16:33:21.811 11327 Reusing old log /home/alex/.config/chromium/Default/Sync Data/LevelDB/000010.log 

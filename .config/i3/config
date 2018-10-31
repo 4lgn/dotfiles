@@ -48,7 +48,6 @@ bindsym $mod+d exec rofi -show run -theme ~/.cache/wal/colors-rofi-dark.rasi -fo
 #bindsym $mod+j focus left
 #bindsym $mod+k focus down
 #bindsym $mod+l focus up
-#bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -78,7 +77,7 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
+# bindsym $mod+s layout stacking
 #bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
@@ -162,7 +161,7 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
-bindsym $mod+Control+r mode "resize"
+bindsym $mod+Control+x mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -211,25 +210,31 @@ set $term --no-startup-id urxvt
 
 # Keybindings #
 #bindsym $mod+x			exec i3lock -c 000000
-bindsym $mod+x			exec i3lock-fancy -g -- scrot -z
-bindsym $mod+w			exec --no-startup-id chromium
-bindsym $mod+k			exec KeeWeb
-bindsym $mod+F2			restart
-bindsym $mod+r			exec $term -e ranger
-bindsym $mod+Shift+r		exec $term -e sudo -E ranger
-bindsym $mod+F1			exec $term -e sudo vim ~/.config/i3/config
+#bindsym $mod+x			        exec i3lock-fancy -g -- scrot -z
+bindsym $mod+x			        exec betterlockscreen -l
+bindsym $mod+w			        exec --no-startup-id chromium
+bindsym $mod+k			        exec KeeWeb
+bindsym $mod+F2			        restart
+bindsym $mod+r			        exec $term -e ranger
+bindsym $mod+Shift+r	        exec $term -e sudo -E ranger
+bindsym $mod+F1			        exec $term -e vim ~/.config/i3/config
 # Screen brightness control
 bindsym XF86MonBrightnessDown	exec --no-startup-id xbacklight -dec 15
-bindsym XF86MonBrightnessUp	exec --no-startup-id xbacklight -inc 15
+bindsym XF86MonBrightnessUp	    exec --no-startup-id xbacklight -inc 15
 # Volume control
 bindsym XF86AudioRaiseVolume	exec /usr/bin/pulseaudio-ctl up 10
 bindsym XF86AudioLowerVolume    exec /usr/bin/pulseaudio-ctl down 10
-bindsym XF86AudioMute		exec pactl set-sink-mute 0 toggle
-bindsym $mod+F4			exec $term -e scrot
-bindsym $mod+shift+w		exec ~/Scripts/rofi-wifi-menu/rofi-wifi-menu.sh
-bindsym $mod+shift+s		exec $term -e nmcli device wifi rescan
-bindsym $mod+i			exec --no-startup-id idea.sh
-bindsym $mod+c			exec --no-startup-id code
+bindsym XF86AudioMute	        exec pactl set-sink-mute 0 toggle
+bindsym $mod+F4			        exec $term -e scrot
+#bindsym $mod+shift+w	        exec ~/Scripts/rofi-wifi-menu/rofi-wifi-menu.sh
+bindsym $mod+shift+s            exec $term -e nmcli device wifi rescan
+bindsym $mod+i			        exec --no-startup-id idea
+bindsym $mod+c			        exec --no-startup-id code
+bindsym $mod+b			        exec --no-startup-id bluej
+bindsym $mod+s			        exec --no-startup-id spotify
+bindsym $mod+shift+i            exec --no-startup-id imgur-screenshot
+bindsym $mod+ctrl+i             exec --no-startup-id maim -s | xclip -selection clipboard -t image/png 
+
 
 #	Startup Exec's	#
 # Misc. Commands to run at start of i3wm (boot) alternative to writing it to ~/.xinitrc
@@ -252,8 +257,16 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Start dropbox on startup
 exec --no-startup-id dropbox
+# Start nm-applet on startup (network manager GTK systray applet. Works with EDUROAM certificate with no problems!)
+# exec --no-startup-id nm-applet
 
 # Remap Caps-lock key to Escape, for using VIM
-exec $term -e setxkbmap -option caps:escape
+exec_always $term -e setxkbmap -option caps:escape
 # Make US and DK keyboard layout togglable with Shift+Alt
-exec $term -e setxkbmap -layout us,dk -option grp:alt_shift_toggle
+exec_always $term -e setxkbmap -layout us,dk -option grp:alt_shift_toggle
+
+# betterlockscreen setup to cache random image from Landscapes folder and make it the lock screen.
+exec --no-startup-id betterlockscreen -u ~/Documents/wallpapers/Landscapes -r 1920x1080 -b 0.5
+
+# Update xdg-mime default for pdf viewing to be Evince instead of Inkscape
+# xdg-mime default org.gnome.Evince.desktop application/pdf

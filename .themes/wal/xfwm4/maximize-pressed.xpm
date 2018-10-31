@@ -2,9 +2,9 @@
 static char * maximize_prelight_xpm[] = {
 "24 26 4 1",
 " 	c None",
-".	c #14141f",
-"+	c #2b50aa s active_color_1",
-"@	c #2b50aa",
+".	c #1f1d12",
+"+	c #b5a57a s active_color_1",
+"@	c #b5a57a",
 "@@@@@@@@@@@@@@@@@@@@@@@@",
 "........................",
 "........................",

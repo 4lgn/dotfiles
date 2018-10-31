@@ -2,15 +2,6 @@
 #overview {
     spacing: 12px;
 }
-.workspace-controls {
-    visible-height: 3em;
-}
-.workspace-thumbnails-background {
-    padding: 10px;
-    border: 1px solid $exterior_border;
-    border-radius: $roundness;
-    @extend %bg-grad-to-right;
-}
 .workspace-thumbnails {
     spacing: 14px;
 }
@@ -46,19 +37,17 @@
 .workspace-overview-background-shade {
     background-color: $dark_bg_color_trans;
 }
-.workspace-thumbnail-indicator {
-    border: 2px solid $exterior_border;
-}
 .window-caption {
-    padding: 10px;
+    @extend %bg-grad-to-bottom;
+
+    padding: 4px 6px;
     border: 1px solid $exterior_border;
     border-radius: $roundness;
-    @extend %bg-grad-to-bottom;
-    padding: 2px 8px;
     color: $dark_fg_color;
     -cinnamon-caption-spacing: 4px;
     &#selected {
         @extend %selected-bg-grad-to-bottom;
+
         color: $selected_fg_color;
     }
 }
@@ -91,19 +80,20 @@
     }
 }
 .expo-workspaces-name-entry {
-    padding: 10px;
+    @extend %bg-grad-to-bottom;
+
+    padding: 4px 6px;
+    height: 1.5em;
     border: 1px solid $exterior_border;
     border-radius: $roundness;
-    @extend %bg-grad-to-bottom;
     selected-color: $selected_fg_color;
     selection-background-color: $selected_bg_color;
     color: $dark_fg_color;
-    min-width: 10em;
-    height: 1.5em;
     text-align: center;
     &#selected {
-        color: $selected_fg_color;
         @extend %selected-bg-grad-to-bottom;
+
+        color: $selected_fg_color;
         selected-color: $dark_fg_color;
         selection-background-color: $selected_bg_color;
         border: 1px solid $selected_border;

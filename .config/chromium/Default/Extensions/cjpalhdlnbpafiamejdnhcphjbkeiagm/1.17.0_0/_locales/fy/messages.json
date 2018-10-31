@@ -1,0 +1,798 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Wizigingen tapasse"
+   },
+   "1pExport": {
+      "description": "English: Export",
+      "message": "Eksportearje"
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "myn-ublock-statyske-filters_{{datetime}}.txt"
+   },
+   "1pFormatHint": {
+      "description": "Short information about how to create custom filters",
+      "message": "Ien filter per rigel. In filter kin in gewoane hostnamme of in Adblock Plus-kompatibel filter wêze. Rigels begjinnend mei \u003Ccode>!\u003C/code> wurde negearre."
+   },
+   "1pImport": {
+      "description": "English: Import and append",
+      "message": "Ymportearje en tafoegje"
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Myn filters"
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Wizigingen tapasse"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "A checkbox in the _3rd-party filters_ pane",
+      "message": "Filterlisten automatysk fernije."
+   },
+   "3pExternalListObsolete": {
+      "description": "used as a tooltip for the out-of-date icon beside a list",
+      "message": "Ferâldere."
+   },
+   "3pExternalListsHint": {
+      "description": "Short information about how to use the textarea to import external filter lists by URL",
+      "message": "Ien URL per rigel. Unjildige URL's wurde stil negearre."
+   },
+   "3pGroupAds": {
+      "description": "English: Ads",
+      "message": "Advertinsjes"
+   },
+   "3pGroupAnnoyances": {
+      "description": "The header identifying the filter lists in the category 'annoyances'",
+      "message": "Ungeriif"
+   },
+   "3pGroupCustom": {
+      "description": "English: Custom",
+      "message": "Oanpast"
+   },
+   "3pGroupDefault": {
+      "description": "Header for the uBlock filters section in 'Filter lists pane'",
+      "message": "Lokaal"
+   },
+   "3pGroupMalware": {
+      "description": "English: Malware domains",
+      "message": "Malwaredomeinen"
+   },
+   "3pGroupMultipurpose": {
+      "description": "English: Multipurpose",
+      "message": "Multifunksjoneel"
+   },
+   "3pGroupPrivacy": {
+      "description": "English: Privacy",
+      "message": "Privacy"
+   },
+   "3pGroupRegions": {
+      "description": "English: Regions, languages",
+      "message": "Gebieden, talen"
+   },
+   "3pIgnoreGenericCosmeticFilters": {
+      "description": "This will cause uBO to ignore all generic cosmetic filters.",
+      "message": "Algemiene kosmetyske filters negearje"
+   },
+   "3pIgnoreGenericCosmeticFiltersInfo": {
+      "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature.",
+      "message": "\u003Cp>Algemiene kosmetyske filters binne dy kosmetyske filters dy't bedoeld binne om op alle websites tapast te wurden.\u003Cp>Hoewol't se effisjint troch uBlock₀ ferwurke wurde, kinne algemiene kosmetyske filters op guon websiden dochs bydrage oan mjitbere ûnthâld- en cpu-oerhead, mei nammen op grutte siden en dy't mei in lange libbensdoer.\u003Cp>It ynskeakeljen fan dizze opsje eliminearret de oan websiden tafoege ûnthâld- en cpu-oerhead as gefolch fan it ferwurkjen fan algemiene kosmetyske filters, en ferleget ek it ûnthâldgebrûk fan uBlock₀ sels.\u003Cp>It wurdt oanrekommandearre dizze opsje op minder krêftige apparaten yn te skeakeljen."
+   },
+   "3pImport": {
+      "description": "The label for the checkbox used to import external filter lists",
+      "message": "Ymportearje…"
+   },
+   "3pLastUpdate": {
+      "description": "used as a tooltip for the clock icon beside a list",
+      "message": "Lêste fernijing: {{ago}}."
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "List fan blokkearre hosts"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{used}} gebrûk fan {{total}}"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "Appears at the top of the _3rd-party filters_ pane",
+      "message": "{{netFilterCount}} netwurkfilters ＋ {{cosmeticFilterCount}} kosmetyske filters fan:"
+   },
+   "3pNetworkError": {
+      "description": "used as a tooltip for error icon beside a list",
+      "message": "In netwurkflater hat opkeard dat de boarne bywurke waard."
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Filterlisten"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature.",
+      "message": "\u003Cp>Dizze opsje skeakelt it ynlêzen en tapassen fan \u003Ca href=\"https://adblockplus.org/en/faq_internal#elemhide\">Adblock Plus-kompatibele &ldquo;element hiding&rdquo;-filters\u003C/a> yn. Dizze filters binne suver kosmetysk: se ferstopje eleminten yn de webside dy't fisueel steurend wêze kinne en kinne dus net blokkearre wurde troch de op netfersiken basearre filtermasine.\u003C/p>\u003Cp>It ynskeakeljen fan dizze funksje ferheget it ûnthâldgebrûk fan uBlock₀.\u003C/p>"
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "Kosmetyske filters ynlêze en tapasse."
+   },
+   "3pPurgeAll": {
+      "description": "A button in the in the _3rd-party filters_ pane",
+      "message": "Alle buffers leegje"
+   },
+   "3pUpdateNow": {
+      "description": "A button in the in the _3rd-party filters_ pane",
+      "message": "No fernije"
+   },
+   "3pUpdating": {
+      "description": "used as a tooltip for the spinner icon beside a list",
+      "message": "Fernijt…"
+   },
+   "aboutBackupDataButton": {
+      "description": "Text for button to create a backup of all settings",
+      "message": "Reservekopy nei bestân"
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "myn-ublock-reservekopy_{{datetime}}.txt"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "Wizigingenlochboek"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Boarnekoade (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Meiwurkers"
+   },
+   "aboutIssues": {
+      "description": "Text for a link to official issue tracker",
+      "message": "Probleemfolger"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Oer"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "Nei de standertynstellingen weromsette…"
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Al jo ynstellingen sille fuortsmiten wurde, wêrnei uBlock₀ werstart.\n\nYnstellingen dochs werstelle nei de standertwearden?"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "Ut bestân werstelle…"
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "Al jo ynstellingen sille oerskreaun wurde mei de reservekopygegevens fan {{time}} en uBlock₀ sil werstart wurde.\n\nBinne jo wis dat jo alle besteande ynstellingen oerskriuwe wolle mei de reservekopygegevens?"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "De gegevens koene net lêzen wurde of binne ûnjildich"
+   },
+   "aboutSupport": {
+      "description": "A link for where to get support",
+      "message": "Stipe"
+   },
+   "aboutWiki": {
+      "description": "English: project' wiki on GitHub",
+      "message": "Wiki"
+   },
+   "advancedSettingsPageName": {
+      "description": "Title for the advanced settings page",
+      "message": "Avansearre ynstellingen"
+   },
+   "advancedSettingsWarning": {
+      "description": "A warning to users at the top of 'Advanced settings' page",
+      "message": "Warskôging! Wizigje dizze avansearre ynstellingen op eigen risiko."
+   },
+   "assetViewerPageName": {
+      "description": "Title for the asset viewer page",
+      "message": "uBlock₀ – Middelenviewer"
+   },
+   "cloudDeviceNamePrompt": {
+      "description": "used as a prompt for the user to provide a custom device name",
+      "message": "Apparaatnamme:"
+   },
+   "cloudNoData": {
+      "description": "",
+      "message": "…\n…"
+   },
+   "cloudPull": {
+      "description": "tooltip",
+      "message": "Ymportearje fan cloudûnthâld"
+   },
+   "cloudPullAndMerge": {
+      "description": "tooltip",
+      "message": "Ut cloudopslach ymportearje en gearfoegje mei aktuele ynstellingen"
+   },
+   "cloudPush": {
+      "description": "tooltip",
+      "message": "Eksportearje nei cloudûnthâld"
+   },
+   "contextMenuTemporarilyAllowLargeMediaElements": {
+      "description": "A context menu entry, present when large media elements have been blocked on the current site",
+      "message": "Grutte media-eleminten tydlik tastean"
+   },
+   "dashboardName": {
+      "description": "English: uBlock₀ — Dashboard",
+      "message": "uBlock₀ — Dashboerd"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "Tebekgean"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "Dit finster slute"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "Permanint"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "Tydlik"
+   },
+   "docblockedFoundIn": {
+      "description": "English: List of filter list names follows",
+      "message": "Fûn yn:"
+   },
+   "docblockedNoParamsPrompt": {
+      "description": "label to be used for the parameter-less URL: https://cloud.githubusercontent.com/assets/585534/9832014/bfb1b8f0-593b-11e5-8a27-fba472a5529a.png",
+      "message": "sûnder parameters"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "Strikte blokkearring foar {{hostname}} útskeakelje"
+   },
+   "docblockedPrompt1": {
+      "description": "English: uBlock₀ has prevented the following page from loading:",
+      "message": "uBlock Origin hat it laden fan de folgjende side opkeard:"
+   },
+   "docblockedPrompt2": {
+      "description": "English: Because of the following filter",
+      "message": "Fanwege it folgjende filter"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "This entry must be the last one"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} dagen lyn"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} oeren lyn"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} minuten lyn"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "in dei lyn"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "in oere lyn"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "in minút lyn"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: {{msg}}",
+      "message": "Netwurkflater: {{msg}}"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock₀"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "Einlik, in effisjinte adblocker. Brûkt hast gjin prosessorkrêft of ûnthâld."
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock₀ (off)'",
+      "message": "útskeakele"
+   },
+   "genericApplyChanges": {
+      "description": "for generic 'Apply changes' buttons",
+      "message": "Wizigingen tapasse"
+   },
+   "genericBytes": {
+      "description": "",
+      "message": "bytes"
+   },
+   "genericRevert": {
+      "description": "for generic 'Revert' buttons",
+      "message": "Tebeksette"
+   },
+   "genericSubmit": {
+      "description": "for generic 'Submit' buttons",
+      "message": "Ferstjoere"
+   },
+   "logAll": {
+      "description": "Appears in the logger's tab selector",
+      "message": "Alles"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "Achter de skermen"
+   },
+   "logFilterPrompt": {
+      "description": "English: filter log entries",
+      "message": "lochboekitems filterje"
+   },
+   "logMaxEntriesTip": {
+      "description": "Tooltip informaing that the input field is to set the maximum number of entries in the log",
+      "message": "Maksimum oantal lochboekitems"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "Domein"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "Filter"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "Type"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "URL"
+   },
+   "loggerCurrentTab": {
+      "description": "Appears in the logger's tab selector",
+      "message": "Aktuele ljepblêd"
+   },
+   "loggerStaticFilteringFinderSentence1": {
+      "description": "Below this sentence, the filter list(s) in which the filter was found",
+      "message": "Statysk filter \u003Ccode>{{filter}}\u003C/code> fûn yn:"
+   },
+   "loggerStaticFilteringFinderSentence2": {
+      "description": "Message to show when a filter cannot be found in any filter lists",
+      "message": "Statysk filter \u003Ccode>{{filter}}\u003C/code> koe net yn ien fan de op dit stuit ynskeakele filterlisten fûn wurde"
+   },
+   "loggerStaticFilteringHeader": {
+      "description": "Small header to identify the static filtering section",
+      "message": "Statysk filterje"
+   },
+   "loggerStaticFilteringSentence": {
+      "description": "Used in the static filtering wizard",
+      "message": "{{action}} netwurkfersiken fan {{type}} {{br}}wêrfan de URL lyk is oan {{url}} {{br}}en dy komme fan {{origin}},{{br}}{{importance}} der is in oerienkomstich útsûnderingsfilter."
+   },
+   "loggerStaticFilteringSentencePartAllow": {
+      "description": "Used in the static filtering wizard",
+      "message": "Tastean"
+   },
+   "loggerStaticFilteringSentencePartAnyOrigin": {
+      "description": "Used in the static filtering wizard",
+      "message": "fan oeral wei"
+   },
+   "loggerStaticFilteringSentencePartAnyType": {
+      "description": "Used in the static filtering wizard",
+      "message": "elts type"
+   },
+   "loggerStaticFilteringSentencePartBlock": {
+      "description": "Used in the static filtering wizard",
+      "message": "Blokkearje"
+   },
+   "loggerStaticFilteringSentencePartImportant": {
+      "description": "Used in the static filtering wizard",
+      "message": "sels as"
+   },
+   "loggerStaticFilteringSentencePartNotImportant": {
+      "description": "Used in the static filtering wizard",
+      "message": "útsein as"
+   },
+   "loggerStaticFilteringSentencePartOrigin": {
+      "description": "Used in the static filtering wizard",
+      "message": "fan “{{origin}}”"
+   },
+   "loggerStaticFilteringSentencePartType": {
+      "description": "Used in the static filtering wizard",
+      "message": "type “{{type}}”"
+   },
+   "loggerURLFilteringContextLabel": {
+      "description": "Label for the context selector",
+      "message": "Kontekst:"
+   },
+   "loggerURLFilteringHeader": {
+      "description": "Small header to identify the dynamic URL filtering section",
+      "message": "Dynamyske URL-filtering"
+   },
+   "loggerURLFilteringTypeLabel": {
+      "description": "Label for the type selector",
+      "message": "Type:"
+   },
+   "pickerContextMenuEntry": {
+      "description": "English: Block element",
+      "message": "Elemint blokkearje"
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "Kosmetyske filters"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "Klik, Ctrl-klik"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "Meitsje"
+   },
+   "pickerNetFilters": {
+      "description": "English: header for a type of filter in the element picker dialog",
+      "message": "Netfilters"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "Kieze"
+   },
+   "pickerPreview": {
+      "description": "Element picker preview mode: will cause the elements matching the current filter to be removed from the page",
+      "message": "Foarbyld"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "Slute"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "skripts fan de websites sels"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "fan tredden"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "frames fan tredden"
+   },
+   "popup3pPassiveRulePrompt": {
+      "description": "",
+      "message": "CSS/ôfbyldingen fan tredden"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "skripts fan tredden"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "alles"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "op dizze side"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "blokkearre fersiken"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "sûnt ynstallaasje"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 or 13%",
+      "message": "{{count}} fan {{percent}}%"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{count}} fan de {{total}}"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "ferbûne domeinen"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "ôfbyldingen"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "ynline skripts"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "of"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page.",
+      "message": "Klikke: uBlock₀ foar dizze website yn-/útskeakelje.\n\nCtrl+klikke: uBlock₀ inkeld foar dizze side útskeakelje."
+   },
+   "popupPowerSwitchInfo1": {
+      "description": "Message to be read by screen readers",
+      "message": "Klik om uBlock₀ foar dizze website út te skeakeljen.\n\nCtrl+klik om uBlock₀ inkeld foar dizze side út te skeakeljen."
+   },
+   "popupPowerSwitchInfo2": {
+      "description": "Message to be read by screen readers",
+      "message": "Klik om uBlock₀ foar dizze website yn te skeakeljen."
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Dashboerd iepenje"
+   },
+   "popupTipGlobalRules": {
+      "description": "Tooltip when hovering the top-most cell of the global-rules column.",
+      "message": "Globale rigels: dizze kolom is foar rigels dy't op alle websites fan tapassing binne."
+   },
+   "popupTipLocalRules": {
+      "description": "Tooltip when hovering the top-most cell of the local-rules column.",
+      "message": "Lokale rigels: dizze kolom is foar rigels dy't allinnich op de aktuele website fan tapassing binne.\nLokale rigels hawwe foarrang op globale rigels."
+   },
+   "popupTipLog": {
+      "description": "Tooltip used for the logger icon in the panel",
+      "message": "Lochboek iepenje"
+   },
+   "popupTipNoCosmeticFiltering": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Kosmetyske filters foar dizze website yn-/útskeakelje"
+   },
+   "popupTipNoCosmeticFiltering1": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Klik om kosmetyske filters op dizze website út te skeakeljen"
+   },
+   "popupTipNoCosmeticFiltering2": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Klik om kosmetyske filters op dizze website yn te skeakeljen"
+   },
+   "popupTipNoLargeMedia": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Grutte media-eleminten foar dizze website yn-/útskeakelje"
+   },
+   "popupTipNoLargeMedia1": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Klik om grutte media-eleminten op dizze website te blokkearjen"
+   },
+   "popupTipNoLargeMedia2": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Klik om grutte media-eleminten op dizze website net mear te blokkearjen"
+   },
+   "popupTipNoPopups": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Alle pop-ups foar dizze website yn-/útskeakelje"
+   },
+   "popupTipNoPopups1": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Klik om alle pop-ups op dizze website te blokkearjen"
+   },
+   "popupTipNoPopups2": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Klik om alle pop-ups op dizze website net mear te blokkearjen"
+   },
+   "popupTipNoRemoteFonts": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Blokkearjen fan eksterne lettertypen foar dizze website yn-/útskeakelje"
+   },
+   "popupTipNoRemoteFonts1": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Klik om eksterne lettertypen op dizze website te blokkearjen"
+   },
+   "popupTipNoRemoteFonts2": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Klik om eksterne lettertypen op dizze website net mear te blokkearjen"
+   },
+   "popupTipNoScripting1": {
+      "description": "Tooltip for the no-scripting per-site switch",
+      "message": "Klik om JavaScript op dizze website út te skeakeljen"
+   },
+   "popupTipNoScripting2": {
+      "description": "Tooltip for the no-scripting per-site switch",
+      "message": "Klik om JavaScript op dizze website net mear út te skeakeljen"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "Elemintkiesmodus iepenje"
+   },
+   "popupTipRevertRules": {
+      "description": "Tooltip when hovering over the eraser in the dynamic filtering pane.",
+      "message": "Klik om jo wizigingen werom te draaien."
+   },
+   "popupTipSaveRules": {
+      "description": "Tooltip when hovering over the padlock in the dynamic filtering pane.",
+      "message": "Klik om jo wizigingen permanint te meitsjen."
+   },
+   "popupTipZapper": {
+      "description": "Tooltip for the element-zapper icon in the popup panel",
+      "message": "Elemintwiskmodus iepenje"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "Tapasse"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "myn-ublock-dynamyske-rigels_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Bewurkje"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Annulearje"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Bewarje"
+   },
+   "rulesExport": {
+      "description": "",
+      "message": "Nei bestân eksportearje"
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "Rigelsyntaks: \u003Ccode>boarne bestimming type aksje\u003C/code> (\u003Ca href='https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax'>folsleine dokumintaasje\u003C/a>)."
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "List fan jo dynamyske filterrigels."
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "Ut bestân ymportearje…"
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Myn rigels"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "Permaninte rigels"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "Tebeksette"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "Tydlike rigels"
+   },
+   "settingPerSiteSwitchGroup": {
+      "description": "",
+      "message": "Standertgedrach"
+   },
+   "settingPerSiteSwitchGroupSynopsis": {
+      "description": "",
+      "message": "Dizze standertgedragingen kinne foar eltse website oerskreaun wurde"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "",
+      "message": "Ik bin in betûfte brûker (\u003Ca href='https://github.com/gorhill/uBlock/wiki/Advanced-user-features'>Lês dit earst\u003C/a>)"
+   },
+   "settingsAdvancedUserSettings": {
+      "description": "For the tooltip of a link which gives access to advanced settings",
+      "message": "avansearre ynstellingen"
+   },
+   "settingsCloudStorageEnabledPrompt": {
+      "description": "",
+      "message": "Stipe foar cloudûnthâld ynskeakelje"
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "Tydlike oantsjutting fan blokkearre eleminten ferstopje"
+   },
+   "settingsColorBlindPrompt": {
+      "description": "English: Color-blind friendly",
+      "message": "Kleureblynfreonlik"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "Wêr mooglik gebrûk meitsje fan it kontekstmenu"
+   },
+   "settingsHyperlinkAuditingDisabledPrompt": {
+      "description": "English: ",
+      "message": "Auditing fan keppelingen útskeakelje"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "It tal blokkearre oanfragen op it ikoan toane"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "Lêste reservekopy:"
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "Lêste werstel:"
+   },
+   "settingsNoCSPReportsPrompt": {
+      "description": "background information: https://github.com/gorhill/uBlock/issues/3150",
+      "message": "CSP-rapporten blokkearje"
+   },
+   "settingsNoCosmeticFilteringPrompt": {
+      "description": "",
+      "message": "Kosmetyske filters útskeakelje"
+   },
+   "settingsNoLargeMediaPrompt": {
+      "description": "",
+      "message": "Media-eleminten grutter as {{input:number}} kB blokkearje"
+   },
+   "settingsNoRemoteFontsPrompt": {
+      "description": "",
+      "message": "Eksterne lettertypen blokkearje"
+   },
+   "settingsNoScriptingPrompt": {
+      "description": "The default state for the per-site no-scripting switch",
+      "message": "JavaScript útskeakelje"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Ynstellingen"
+   },
+   "settingsPrefetchingDisabledPrompt": {
+      "description": "English: ",
+      "message": "Pre-fetching útskeakelje (om eltse ferbining foar blokkearre netwurkfersiken foar te kommen)"
+   },
+   "settingsStorageUsed": {
+      "description": "English: Storage used: {{}} bytes",
+      "message": "Brûkte ûnthâldromte: {{value}} bytes"
+   },
+   "settingsTooltipsPrompt": {
+      "description": "A checkbox in the Settings pane",
+      "message": "Tooltips útskeakelje"
+   },
+   "settingsWebRTCIPAddressHiddenPrompt": {
+      "description": "English: ",
+      "message": "It lekken fan it lokale IP-adres fia WebRTC opkeare"
+   },
+   "shortcutCapturePlaceholder": {
+      "description": "Placeholder string for input field used to capture a keyboard shortcut",
+      "message": "Typ in fluchtoets"
+   },
+   "shortcutsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Fluchtoetsen"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "Dashboerd toane"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Logger",
+      "message": "Lochboek toane"
+   },
+   "statsPageName": {
+      "description": "Title for the logger window",
+      "message": "uBlock₀ — Lochboek"
+   },
+   "subscriberConfirm": {
+      "description": "English: The message seen by the user to confirm subscription to a ABP filter list",
+      "message": "uBlock₀: De folgjende URL oan jo oanpaste filterlisten tafoegje?\n\nTitel: \"{{title}}\"\nURL: {{url}}"
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "Wizigingen tapasse"
+   },
+   "whitelistExport": {
+      "description": "English: Export",
+      "message": "Eksportearje"
+   },
+   "whitelistExportFilename": {
+      "description": "English: my-ublock-whitelist_{{datetime}}.txt",
+      "message": "myn-ublock-whitelist_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "English: Import and append",
+      "message": "Ymportearje en tafoegje"
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Whitelist"
+   },
+   "whitelistPrompt": {
+      "description": "English: An overview of the content of the dashboard's Whitelist pane.",
+      "message": "De whitelist-ynstruksjes skriuwe foar op hokker websiden uBlock Origin útskeakele wurde moat. Ien fermelding per rigel. Unjildige ynstruksjes wurde sûnder meidieling negearre en útskeakele."
+   }
+}

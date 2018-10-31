@@ -1,0 +1,17 @@
+2018/10/11-12:13:57.746 3098 Reusing MANIFEST /home/alex/.config/chromium/Default/IndexedDB/https_drewscommunity.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/10/11-12:14:01.028 3096 Current memtable full; waiting...
+2018/10/11-12:14:01.028 2547 Level-0 table #5: started
+2018/10/11-12:14:01.033 2547 Level-0 table #5: 413 bytes OK
+2018/10/11-12:14:01.037 2547 Delete type=0 #3
+2018/10/11-12:14:01.037 2547 Level-0 table #7: started
+2018/10/11-12:14:01.037 2547 Level-0 table #7: 0 bytes OK
+2018/10/11-12:14:01.039 2547 Delete type=0 #4
+2018/10/11-12:14:01.039 2547 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2018/10/11-12:14:02.036 1989 Current memtable full; waiting...
+2018/10/11-12:14:02.036 2547 Level-0 table #9: started
+2018/10/11-12:14:02.038 2547 Level-0 table #9: 418 bytes OK
+2018/10/11-12:14:02.040 2547 Delete type=0 #6
+2018/10/11-12:14:02.041 2547 Level-0 table #11: started
+2018/10/11-12:14:02.041 2547 Level-0 table #11: 0 bytes OK
+2018/10/11-12:14:02.043 2547 Delete type=0 #8
+2018/10/11-12:14:02.044 2547 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

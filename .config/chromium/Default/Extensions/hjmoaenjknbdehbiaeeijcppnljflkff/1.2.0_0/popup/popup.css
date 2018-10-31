@@ -1,0 +1,52 @@
+body {
+  padding: 5px 0px;
+  text-align: center;
+  width: 455px;
+}
+
+form {
+  margin: 0px !important;
+  white-space: no-wrap;
+}
+
+button {
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.form-group {
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-right: 2px;
+  width: 230px;
+}
+
+.form-group .form-control {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.dropdown-menu {
+  margin-top: 5px;
+  min-width: 143px;
+  margin-bottom: 7px;
+}
+
+.error::-webkit-input-placeholder {
+  color: #E74C3C;
+  font-weight: bold;
+}
+
+#add-complete {
+  display: none;
+  text-align: center;
+}
+
+#add-complete > div {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#add-complete > button {
+
+}

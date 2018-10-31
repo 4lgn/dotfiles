@@ -1,12 +1,12 @@
 // defines font family and standard font size across the whole theme
 // em is preferred for better support for text scaling
 stage {
-    font-family: sans, sans-serif;
+    font-family: roboto, Noto Sans, sans, sans-serif;
     font-size: 1em;
 }
 .cinnamon-link {
     color: $link_color;
-    text-decoration: underline;
+    font-style: italic;
     &:hover {
         color: $selected_fg_color;
     }
@@ -48,18 +48,6 @@ StScrollView {
     StScrollBar {
         min-width: 0.8em;
         min-height: 0.8em;
-    }
-    &.menu-context-menu {
-        border-width: 0;
-        padding: 0;
-        StBoxLayout {
-            @extend %bg-grad-to-bottom;
-            padding: 5px;
-                > .popup-menu-item {
-                    margin: .2em 0;
-                    padding: .3em .7em;
-                }
-        }
     }
 }
 .separator {
@@ -118,6 +106,7 @@ StScrollView {
 }
 #Tooltip {
     @extend %tooltip-bg-grad-to-top;
+
     padding: 5px 8px;
     color: $tooltip_fg_color;
     text-align: center;

@@ -70,6 +70,26 @@ nnoremap <C-H> <C-W><C-H>
 " Bind to clear search
 nmap <leader>/ :nohlsearch<CR>
 
+" --- LaTeX Stuff ---
+" Navigating with guides
+inoremap ,<Tab> <Esc>/<++><Enter>"_c4l
+vnoremap ,<Tab> <Esc>/<++><Enter>"_c4l
+map ,<Tab> <Esc>/<++><Enter>"_c4l
+
+autocmd FileType tex inoremap <F6> <Esc>:w<Enter>:!pdflatex<space>%<Enter>a
+autocmd FileType tex nnoremap <F6> :w<Enter>:!pdflatex<space>%<Enter><Enter>
+autocmd FileType tex inoremap ,bf \textbf{}<++><Esc>T{i
+autocmd FileType tex inoremap ,it \textit{}<++><Esc>T{i
+autocmd FileType tex inoremap ,dm \[\]<Enter><++><Esc>khi
+autocmd FileType tex inoremap ,im $$<++><Esc>5hli
+autocmd FileType tex inoremap ,con \rightarrow
+autocmd FileType tex inoremap ,bic \leftrightarrow
+
+
+
+
+
+" --- Python Stuff ---
 
 " Bind F5 to save file if modified and execute python script in a buffer.
 nnoremap <silent> <F5> :call SaveAndExecutePython()<CR>

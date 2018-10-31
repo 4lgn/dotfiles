@@ -1,3 +1,3 @@
-2018/07/20-19:45:32.965 5804 Reusing MANIFEST /home/alex/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2018/07/20-19:45:32.965 5804 Recovering log #3
-2018/07/20-19:45:32.965 5804 Reusing old log /home/alex/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2018/10/29-12:09:07.746 15452 Reusing MANIFEST /home/alex/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/10/29-12:09:07.746 15452 Recovering log #3
+2018/10/29-12:09:07.748 15452 Reusing old log /home/alex/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 

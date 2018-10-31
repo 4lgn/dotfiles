@@ -3,9 +3,8 @@
     background-color: $dark_bg_color_trans;
 }
 .keyboard-key {
-    min-height: 1.5em;
-    min-width: 2.5em;
     @extend %shared-button;
+
     &:grayed {
         color: $selected_fg_color;
         border-color: $selected_fg_color;
@@ -21,22 +20,22 @@
     }
 }
 .keyboard-layout {
-    spacing: 10px;
-    padding: 10px;
+    spacing: 8px;
+    padding: 8px;
 }
 .keyboard-row {
-    spacing: 15px;
+    spacing: 16px;
 }
 .keyboard-subkeys {
     color: $dark_fg_color;
-    padding: 5px;
+    padding: 4px;
     -arrow-border-radius: $roundness;
     -arrow-background-color: $dark_bg_color;
     -arrow-border-width: 1px;
     -arrow-border-color: $dark_fg_color;
-    -arrow-base: 20px;
-    -arrow-rise: 10px;
-    -boxpointer-gap: 5px;
+    -arrow-base: 16px;
+    -arrow-rise: 8px;
+    -boxpointer-gap: 4px;
 }
 // desktop zoom feature
 .magnifier-zoom-region {

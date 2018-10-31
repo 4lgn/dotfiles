@@ -5,19 +5,17 @@
 }
 .switcher-list {
     @extend %bg-grad-to-bottom;
+
     border-radius: $roundness;
     border: 1px solid $exterior_border;
-    padding: 20px;
+    padding: 16px;
     color: $dark_fg_color;
     .item-box {
         padding: 8px;
         border-radius: $roundness;
-        &:outlined {
-            padding: 6px;
-            border: 1px solid $interior_border;
-        }
         &:selected {
             @extend %selected-bg-grad-to-bottom;
+
             color: $selected_fg_color;
         }
     }

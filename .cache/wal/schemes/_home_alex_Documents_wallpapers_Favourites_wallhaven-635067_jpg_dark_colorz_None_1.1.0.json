@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/alex/Documents/wallpapers/Favourites/wallhaven-635067.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1f1d12",
+        "foreground": "#c7c6c3",
+        "cursor": "#c7c6c3"
+    },
+    "colors": {
+        "color0": "#1f1d12",
+        "color1": "#b5a57a",
+        "color2": "#a49a40",
+        "color3": "#49aa6e",
+        "color4": "#2388b0",
+        "color5": "#7aa0be",
+        "color6": "#c0babb",
+        "color7": "#c7c6c3",
+        "color8": "#57554d",
+        "color9": "#b5a57a",
+        "color10": "#a49a40",
+        "color11": "#49aa6e",
+        "color12": "#2388b0",
+        "color13": "#7aa0be",
+        "color14": "#c0babb",
+        "color15": "#c7c6c3"
+    }
+}

@@ -1,3 +1,3 @@
-2018/08/28-21:09:30.105 8841 Reusing MANIFEST /home/alex/.config/chromium/Default/IndexedDB/https_www.google.dk_0.indexeddb.leveldb/MANIFEST-000001
-2018/08/28-21:09:30.105 8841 Recovering log #3
-2018/08/28-21:09:30.107 8841 Reusing old log /home/alex/.config/chromium/Default/IndexedDB/https_www.google.dk_0.indexeddb.leveldb/000003.log 
+2018/10/31-16:33:22.175 11326 Reusing MANIFEST /home/alex/.config/chromium/Default/IndexedDB/https_www.google.dk_0.indexeddb.leveldb/MANIFEST-000001
+2018/10/31-16:33:22.175 11326 Recovering log #3
+2018/10/31-16:33:22.197 11326 Reusing old log /home/alex/.config/chromium/Default/IndexedDB/https_www.google.dk_0.indexeddb.leveldb/000003.log 

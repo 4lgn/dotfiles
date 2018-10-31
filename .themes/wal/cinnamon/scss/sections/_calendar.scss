@@ -16,6 +16,7 @@
 }
 .calendar-change-month-back {
     @extend %calendar-shared;
+
     border: 1px solid transparent;
     background-image: url(assets/calendar-arrow-left.svg);
     &:rtl {
@@ -30,6 +31,7 @@
 }
 .calendar-change-month-forward {
     @extend %calendar-shared;
+
     border: 1px solid transparent;
     background-image: url(assets/calendar-arrow-right.svg);
     &:rtl {
@@ -99,6 +101,7 @@
 // this is always is an active state
 .calendar-today {
     @extend %selected-bg-grad-to-bottom;
+
     font-weight: bold;
     &:active {
         color: $selected_fg_color;

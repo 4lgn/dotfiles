@@ -1,0 +1,20 @@
+body {
+  padding-bottom: 40px;
+}
+
+h4 {
+  font-size: 160%;
+}
+
+h5 {
+  font-size: 130%;
+}
+
+.red-text {
+  color: #E74C3C;
+}
+
+hr {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
