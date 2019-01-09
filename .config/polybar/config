@@ -27,6 +27,7 @@ height = 25
 ;offset-y = 5%
 radius = 0.0
 fixed-center = true
+bottom = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}

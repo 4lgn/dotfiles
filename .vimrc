@@ -49,6 +49,8 @@ set laststatus=2		        " for lightline.vim plugin
 
 " Use comma as leader
 let g:mapleader = ','
+" make it possible to write danish letters
+let g:AutoPairsShortcutFastWrap=''
 
 " ---Re-mappings---
 " 
@@ -84,8 +86,6 @@ autocmd FileType tex inoremap ,dm \[\]<Enter><++><Esc>khi
 autocmd FileType tex inoremap ,im $$<++><Esc>5hli
 autocmd FileType tex inoremap ,con \rightarrow
 autocmd FileType tex inoremap ,bic \leftrightarrow
-
-
 
 
 

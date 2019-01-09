@@ -6,3 +6,5 @@ wal -R
 
 # Initiates i3wm
 exec i3
+
+setxkbmap -layout 'us,dk' -option '' -option 'grp:alt_shift_toggle' -option 'caps:escape'

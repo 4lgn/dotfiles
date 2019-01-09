@@ -165,9 +165,10 @@ bindsym $mod+Control+x mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-# bar {
-#         status_command i3status
-# }
+#bar {
+#        position bottom
+#        status_command i3blocks
+#}
 
 
 
@@ -178,11 +179,11 @@ bindsym $mod+Control+x mode "resize"
 #	Color/Gaps/Etc. 	#
 
 # Window border
-new_window pixel 4
-default_border pixel 4
+new_window pixel 2
+default_border pixel 2
 
 # Setup gaps
-gaps inner 10
+gaps inner 0
 gaps outer 0
 
 ###--- i3 coloring ---###
@@ -267,6 +268,9 @@ exec_always $term -e setxkbmap -layout us,dk -option grp:alt_shift_toggle
 
 # betterlockscreen setup to cache random image from Landscapes folder and make it the lock screen.
 exec --no-startup-id betterlockscreen -u ~/Documents/wallpapers/Landscapes -r 1920x1080 -b 0.5
+
+# Start redshift with Copenhagen coords at startup. F.lux alternative
+exec --no-startup-id redshift -l 55.676098:12.568337 -t 6500:3400
 
 # Update xdg-mime default for pdf viewing to be Evince instead of Inkscape
 # xdg-mime default org.gnome.Evince.desktop application/pdf

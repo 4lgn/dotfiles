@@ -1,21 +1,21 @@
-set $wallpaper /home/alex/Documents/wallpapers/Favourites/wallhaven-635067.jpg
+set $wallpaper /home/alex/Documents/wallpapers/Favourites/Comfy 32.jpg
 
-set $background #1f1d12
-set $foreground #c7c6c3
+set $background #1f1e1d
+set $foreground #c7c6c6
 
-set $color0 #1f1d12
-set $color1 #b5a57a
-set $color2 #a49a40
-set $color3 #49aa6e
-set $color4 #2388b0
-set $color5 #7aa0be
-set $color6 #c0babb
-set $color7 #c7c6c3
-set $color8 #57554d
-set $color9 #b5a57a
-set $color10 #a49a40
-set $color11 #49aa6e
-set $color12 #2388b0
-set $color13 #7aa0be
-set $color14 #c0babb
-set $color15 #c7c6c3
+set $color0 #1f1e1d
+set $color1 #bdbbba
+set $color2 #a9a298
+set $color3 #a8996a
+set $color4 #a9a185
+set $color5 #a5a6a6
+set $color6 #3497ad
+set $color7 #c7c6c6
+set $color8 #575655
+set $color9 #bdbbba
+set $color10 #a9a298
+set $color11 #a8996a
+set $color12 #a9a185
+set $color13 #a5a6a6
+set $color14 #3497ad
+set $color15 #c7c6c6

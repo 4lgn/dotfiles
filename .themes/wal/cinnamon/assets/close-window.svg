@@ -28,10 +28,10 @@
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs2397"><linearGradient
      id="linearGradient3173"><stop
-       style="stop-color:#c7c6c3;stop-opacity:1;"
+       style="stop-color:#c7c6c6;stop-opacity:1;"
        offset="0"
        id="stop3175" /><stop
-       style="stop-color:#c7c6c3;stop-opacity:1;"
+       style="stop-color:#c7c6c6;stop-opacity:1;"
        offset="1"
        id="stop3177" /></linearGradient><inkscape:perspective
      sodipodi:type="inkscape:persp3d"
@@ -62,10 +62,10 @@
      gradientUnits="userSpaceOnUse" /><linearGradient
      inkscape:collect="always"
      id="linearGradient16498-6"><stop
-       style="stop-color:#1f1d12;stop-opacity:1"
+       style="stop-color:#1f1e1d;stop-opacity:1"
        offset="0"
        id="stop16500-8" /><stop
-       style="stop-color:#1f1d12;stop-opacity:1"
+       style="stop-color:#1f1e1d;stop-opacity:1"
        offset="1"
        id="stop16502-0" /></linearGradient><filter
      color-interpolation-filters="sRGB"
@@ -125,7 +125,7 @@
        clip-rule="evenodd"
        d="m -0.30428257,8.1237596 c 0,-4.4179998 3.56522987,-7.9999996 7.96254497,-7.9999996 4.3973156,0 7.9625456,3.5819998 7.9625456,7.9999996 0,4.4180014 -3.56523,8.0000004 -7.9625456,8.0000004 -4.3973151,0 -7.96254497,-3.581999 -7.96254497,-8.0000004 z"
        id="path2394-32"
-       style="color:#000000;fill:url(#radialGradient16504-1);fill-opacity:1;fill-rule:nonzero;stroke:#c7c6c3;stroke-width:1.4545455;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:url(#radialGradient16504-1);fill-opacity:1;fill-rule:nonzero;stroke:#c7c6c6;stroke-width:1.4545455;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        sodipodi:nodetypes="csssc"
        inkscape:connector-curvature="0" /><g
        id="g3172-6" /></g><g
@@ -146,7 +146,7 @@
          d="m 44.21875,764.1875 0,1 c -0.02191,0.28075 0.07051,0.55537 0.28125,0.75 l 2.28125,2.28125 -2.28125,2.25 c -0.18819,0.18817 -0.281253,0.45346 -0.28125,0.71875 l 0,1 1,0 c 0.26529,0 0.530586,-0.0931 0.71875,-0.28125 L 48.21875,769.625 50.5,771.90625 c 0.188164,0.18815 0.453449,0.28124 0.71875,0.28125 l 1,0 0,-1 c -8e-6,-0.2653 -0.09306,-0.53058 -0.28125,-0.71875 l -2.25,-2.25 2.28125,-2.28125 c 0.21566,-0.19935 0.25,-0.46353 0.25,-0.75 l 0,-1 -1,0 c -0.240828,0.007 -0.421875,0.082 -0.6875,0.3125 l -2.3125,2.28125 L 45.9375,764.5 c -0.17763,-0.18392 -0.432549,-0.3013 -0.6875,-0.3125 -0.01046,-4.6e-4 -0.02088,-1.2e-4 -0.03125,0 l -1,0 z"
          transform="translate(0,1.3535534)" /><path
          sodipodi:nodetypes="ccsccccccccccccccccccccccc"
-         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#c7c6c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#c7c6c6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
          id="path27279-0-5"
          inkscape:connector-curvature="0"
          d="m 44.226475,764.17222 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 l 2.28125,2.28125 2.3125,-2.28125 c 0.265625,-0.2305 0.446672,-0.3055 0.6875,-0.3125 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 c 0.188188,0.18817 0.281242,0.45345 0.28125,0.71875 l 0,1 -1,0 c -0.265301,-1e-5 -0.530586,-0.0931 -0.71875,-0.28125 l -2.28125,-2.28125 -2.28125,2.28125 c -0.188164,0.18819 -0.45346,0.28125 -0.71875,0.28125 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 -2.28125,-2.28125 c -0.210742,-0.19463 -0.30316,-0.46925 -0.28125,-0.75 l 0,-1 z" /></g></g></g></svg>

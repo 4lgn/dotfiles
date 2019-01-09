@@ -23,11 +23,11 @@
        inkscape:collect="always"
        id="linearGradient4140">
       <stop
-         style="stop-color:#1f1d12;stop-opacity:1"
+         style="stop-color:#1f1e1d;stop-opacity:1"
          offset="0"
          id="stop4142" />
       <stop
-         style="stop-color:#1f1d12;stop-opacity:1"
+         style="stop-color:#1f1e1d;stop-opacity:1"
          offset="1"
          id="stop4144" />
     </linearGradient>
@@ -86,7 +86,7 @@
      id="layer1"
      transform="translate(0,-1036.3622)">
     <rect
-       style="fill:url(#linearGradient4146);fill-rule:evenodd;stroke:#c7c6c3;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       style="fill:url(#linearGradient4146);fill-rule:evenodd;stroke:#c7c6c6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="rect3338"
        width="15"
        height="15"
@@ -95,7 +95,7 @@
        rx="2.823529"
        ry="2.823544" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#b5a57a;stroke-width:2.0999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#bdbbba;stroke-width:2.0999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 3.1680701,1045.2435 3.394596,2.7033 6.3652989,-7.1528"
        id="path4148"
        inkscape:connector-curvature="0"
