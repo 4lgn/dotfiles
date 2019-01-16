@@ -23,11 +23,11 @@
        inkscape:collect="always"
        id="linearGradient4140">
       <stop
-         style="stop-color:#1f1e1d;stop-opacity:1"
+         style="stop-color:#1f1b17;stop-opacity:1"
          offset="0"
          id="stop4142" />
       <stop
-         style="stop-color:#1f1e1d;stop-opacity:1"
+         style="stop-color:#1f1b17;stop-opacity:1"
          offset="1"
          id="stop4144" />
     </linearGradient>
@@ -86,7 +86,7 @@
      id="layer1"
      transform="translate(0,-1036.3622)">
     <rect
-       style="fill:url(#linearGradient4146);fill-rule:evenodd;stroke:#c7c6c6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       style="fill:url(#linearGradient4146);fill-rule:evenodd;stroke:#c7c6c5;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        id="rect3338"
        width="15"
        height="15"

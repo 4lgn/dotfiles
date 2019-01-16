@@ -212,7 +212,7 @@ set $term --no-startup-id urxvt
 # Keybindings #
 #bindsym $mod+x			exec i3lock -c 000000
 #bindsym $mod+x			        exec i3lock-fancy -g -- scrot -z
-bindsym $mod+x			        exec betterlockscreen -l
+bindsym $mod+x			        exec sudo betterlockscreen -l
 bindsym $mod+w			        exec --no-startup-id chromium
 bindsym $mod+k			        exec KeeWeb
 bindsym $mod+F2			        restart
@@ -267,10 +267,13 @@ exec_always $term -e setxkbmap -option caps:escape
 exec_always $term -e setxkbmap -layout us,dk -option grp:alt_shift_toggle
 
 # betterlockscreen setup to cache random image from Landscapes folder and make it the lock screen.
-exec --no-startup-id betterlockscreen -u ~/Documents/wallpapers/Landscapes -r 1920x1080 -b 0.5
+exec --no-startup-id sudo betterlockscreen -u ~/Documents/wallpapers/Landscapes -r 1920x1080
 
 # Start redshift with Copenhagen coords at startup. F.lux alternative
 exec --no-startup-id redshift -l 55.676098:12.568337 -t 6500:3400
+
+# Start dunst for notifications
+exec --no-startup-id dunst
 
 # Update xdg-mime default for pdf viewing to be Evince instead of Inkscape
 # xdg-mime default org.gnome.Evince.desktop application/pdf
