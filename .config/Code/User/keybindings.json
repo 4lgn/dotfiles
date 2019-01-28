@@ -1,0 +1,23 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+x",
+        "command": "workbench.action.toggleMenuBar"
+    },
+    {
+        "key": "alt+a",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-extension.vim_ctrl+w",
+        "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+    },
+    // Toggle between terminal and editor focus
+    { "key": "ctrl+\\", "command": "workbench.action.terminal.focus"},
+    { "key": "ctrl+\\", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"}
+]

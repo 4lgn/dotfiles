@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "'Source Code Pro'",
+    "editor.fontSize": 14,
+    "editor.lineNumbers": "relative",
+    "keyboard.dispatch": "keyCode",
+    "window.zoomLevel": 1,
+    "editor.rulers": [80,120],
+}
