@@ -44,8 +44,8 @@ padding-right = 1
 module-margin-left = 1
 module-margin-right = 0
 
-;font-0 = fixed:pixelsize=10;1
 font-0 = "xos4 Terminus:pixelsize=14;1"
+#font-0 = "FiraMono:pixelsize=12"
 font-1 = unifont:fontformat-truetype:size=8:antialias=false;0
 font-2 = "Wuncon Siji:pixelsize=10;1"
 font-3 = "Font Awesome 5 Free:style=Regular:pixelsize=12;1"

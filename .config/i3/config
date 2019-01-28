@@ -229,7 +229,7 @@ bindsym XF86AudioMute	        exec pactl set-sink-mute 0 toggle
 bindsym $mod+F4			        exec $term -e scrot
 #bindsym $mod+shift+w	        exec ~/Scripts/rofi-wifi-menu/rofi-wifi-menu.sh
 bindsym $mod+shift+s            exec $term -e nmcli device wifi rescan
-bindsym $mod+i			        exec --no-startup-id idea
+bindsym $mod+i			        exec --no-startup-id intellij-idea-ultimate-edition
 bindsym $mod+c			        exec --no-startup-id code
 bindsym $mod+b			        exec --no-startup-id bluej
 bindsym $mod+s			        exec --no-startup-id spotify

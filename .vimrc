@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'dylanaraps/wal'
 Plug 'itchyny/lightline.vim'
 Plug 'taohex/lightline-buffer'
+Plug 'morhetz/gruvbox'
 
 " --- Completion and syntax --- "
 
