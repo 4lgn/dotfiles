@@ -22,7 +22,8 @@ call plug#end()
 
 filetype plugin indent on    " required
 syntax on
-colorscheme wal
+" colorscheme wal
+colorscheme gruvbox
 
 
 " User-specific Settings.
