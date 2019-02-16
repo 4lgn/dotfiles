@@ -469,12 +469,12 @@
         "lastActiveWindow": {
             "folderUri": {
                 "$mid": 1,
-                "fsPath": "/home/alex/Dropbox/ITU/2. semester/BADS/CODEProjects",
-                "external": "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/CODEProjects",
-                "path": "/home/alex/Dropbox/ITU/2. semester/BADS/CODEProjects",
+                "fsPath": "/home/alex/Dropbox/ITU/2. semester/BADS/Exercises-BADS",
+                "external": "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/Exercises-BADS",
+                "path": "/home/alex/Dropbox/ITU/2. semester/BADS/Exercises-BADS",
                 "scheme": "file"
             },
-            "backupPath": "/home/alex/.config/Code/Backups/3b73b2a34785de6e34ca2bc5bc45c17c",
+            "backupPath": "/home/alex/.config/Code/Backups/cea8134594e7590c71491961c6948c41",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -484,9 +484,24 @@
             }
         }
     },
-    "pickerWorkingDir": "/home/alex/Dropbox/ITU/2. semester/BADS",
+    "pickerWorkingDir": "/home/alex/Dropbox/ITU/2. semester/BADS/CODEProjects",
     "openedPathsList": {
         "workspaces2": [
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/Exercises-BADS",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/BADS-Deliverables/random-queue-18-feb",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/BADS-Deliverables/random-queue-18-feb/implementation",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/Exercises-BADS/chapter1/section4",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/Exercises-BADS/chapter1",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/BADS-Deliverables",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BFST/exercises",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/BADS-Deliverables/catenable-queue-11-feb",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BFST/BFST19_algn/src/main/java/bfst19/addressparser",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/Deliverables/Catenable%20Queue%20-%2011%20Feb",
+            {
+                "id": "c11ca333022562f0b9ab0e03fe1d35ad",
+                "configPath": "/home/alex/Dropbox/ITU/2. semester/BADS/CODEProjects/BADSWorkspace.code-workspace"
+            },
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BFST/BFST19",
             "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/CODEProjects",
             {
                 "id": "6621f009cf310fbdf044020eda8974c3",
@@ -494,6 +509,13 @@
             },
             "file:///home/alex/Documents/VS%20Code%20Projects"
         ],
-        "files2": []
+        "files2": [
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/BADS-Deliverables/random-queue-18-feb/implementation/RandomQueue.java",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/bads-labs/catenablequeue/docs/catenablequeue.tex",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BFST/BFST19/src/main/java/bfst19/addressparser/Address.java",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BFST/BFST19/src/main/java/bfst19/addressparser/AddressBook.java",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/CODEProjects/Assignments/DS2/DS2.java",
+            "file:///home/alex/Dropbox/ITU/2.%20semester/BADS/CODEProjects/Assignments/DS2/DS1.java"
+        ]
     }
 }

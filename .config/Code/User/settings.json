@@ -1,10 +1,37 @@
 {
     "workbench.colorTheme": "Gruvbox Dark Hard",
     "window.menuBarVisibility": "toggle",
-    "editor.fontFamily": "'Source Code Pro'",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "\"Source Code Pro\"",
     "editor.lineNumbers": "relative",
     "keyboard.dispatch": "keyCode",
     "window.zoomLevel": 1,
-    "editor.rulers": [80,120],
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "vim.useSystemClipboard": true,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontFamily": "monospace",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+            ]
+        }
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
 }
