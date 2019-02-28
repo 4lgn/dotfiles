@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Gruvbox Dark Hard",
     "window.menuBarVisibility": "toggle",
     "editor.fontFamily": "\"Source Code Pro\"",
     "editor.lineNumbers": "relative",
@@ -34,4 +33,8 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "editor.minimap.enabled": false,
+    "rewrap.autoWrap.enabled": true,
+    "rewrap.wrappingColumn": 80,
 }
