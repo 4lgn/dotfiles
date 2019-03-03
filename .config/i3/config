@@ -280,5 +280,8 @@ exec --no-startup-id redshift -l 55.676098:12.568337 -t 6500:3400
 # Start dunst for notifications
 exec --no-startup-id dunst
 
+# Make sure libsecret with gnome-keyring works and is running (used for storing encrypted github credentials)
+exec dbus-update-activation-environment DISPLAY XAUTHORITY
+
 # Update xdg-mime default for pdf viewing to be Evince instead of Inkscape
 # xdg-mime default org.gnome.Evince.desktop application/pdf

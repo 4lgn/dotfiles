@@ -10,6 +10,3 @@ setxkbmap -layout 'us,dk' -option '' -option 'grp:alt_shift_toggle' -option 'cap
 exec i3
 
 setxkbmap -layout 'us,dk' -option '' -option 'grp:alt_shift_toggle' -option 'caps:escape'
-
-source /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
-dbus-update-activation-environment DISPLAY XAUTHORITY
