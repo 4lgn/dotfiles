@@ -37,4 +37,8 @@
     "editor.minimap.enabled": false,
     "rewrap.autoWrap.enabled": true,
     "rewrap.wrappingColumn": 80,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }
