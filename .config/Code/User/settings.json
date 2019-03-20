@@ -41,4 +41,5 @@
     "workbench.activityBar.visible": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.titleBarStyle": "custom",
 }
