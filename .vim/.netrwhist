@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/alex/Documents'
 let g:netrw_dirhist_2='/home/alex/.config/polybar'
 let g:netrw_dirhist_3='/home/alex/Desktop'
+let g:netrw_dirhist_4='/home/alex/temp'
