@@ -1,5 +1,5 @@
 # Dotfiles
-Dot files for my Arch Linux + i3wm setup used on my Dell XPS 15 9560.
+Dot files for my Arch Linux (5.0.2) + i3wm setup used on my Dell XPS 15 9560.
 
 # Screenshots
 
@@ -22,6 +22,7 @@ Dot files for my Arch Linux + i3wm setup used on my Dell XPS 15 9560.
 - vim
 - polybar
 - chromium
+- evince
 - betterlockscreen
 - libinput
   - libinput-gestures
