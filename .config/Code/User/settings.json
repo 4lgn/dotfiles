@@ -56,4 +56,5 @@
         "editor.tabSize": 2
     },
     "extensions.autoUpdate": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
 }
