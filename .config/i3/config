@@ -32,6 +32,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# Start terminal in same dir
+bindsym $mod+Shift+Return exec urxvt -cd "`xcwd`"
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
