@@ -37,16 +37,15 @@ Dot files for my Arch Linux (5.4.15) + i3wm setup used on my Dell XPS 15 9560.
 - KeeWeb
 - libsecret
 - redshift
-- spotify
 - compton
-- dropbox
 - pulseaudio / -alsa
-- NetworkManager
-  - nm-applet
-- pamixer
-- gotop
+- `NetworkManager`: 'Networking that just works'
+  - `nm-applet`: GTK Applet for NetworkManager
+- `pamixer`: Pulseaudio manager
+- `gotop`: Beautiful TUI activity monitor
 - plug
-- xcwd
+- `xcwd`: Used to open a new terminal in the same directory as the current focused terminal
+- `git-credential-gnome-keyring`: Git credentials helper
 - Fonts:
   - Tamzen
   - Terminus
@@ -62,7 +61,7 @@ Bumblebee to blacklist nvidia GPU for power saving.
 ```
 blacklist nouveau
 blacklist nvidia
-blacklst psmouse
+blacklist psmouse
 ```
 
 ### Kernel parameters
