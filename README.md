@@ -14,31 +14,32 @@ Dot files for my Arch Linux (5.4.15) + i3wm setup used on my Dell XPS 15 9560.
 
 ## Primary packages
 
-- rofi
-- fish
-- urxvt
-- i3
-- dunst
-- vim
-- polybar
-- chromium
-- evince
-- betterlockscreen
-- libinput
-  - libinput-gestures
-- pywal
-- neofetch
+- `rofi`: Application launcher
+- `fish`: Shell
+- `urxvt`: Terminal emulator
+- `i3`: Window manager
+- `dunst`: Notification daemon
+- `vim`: Editor
+- `polybar`: Status bar
+- `chromium`: Browser
+- `evince`: PDF reader
+- `betterlockscreen`: Lock screen
+- `libinput`: Touch pad driver
+  - `libinput-gestures`: Custom touchpad gestures
+- `pywal`: Automatic theming
+- `neofetch`: System info
 
 ## Secondary packages/dependencies
 
-- w3m
-- imgur-screenshot
-- maim
-- KeeWeb
-- libsecret
-- redshift
-- compton
-- pulseaudio / -alsa
+- `w3m`: Used to display images in ranger
+- `imgur-screenshot`: Screenclip to imgur
+- `maim`: Screenclip to clipboard
+- `KeeWeb`: Password manager
+- `libsecret`: Github credentials helper (Use gnome-keyring instead though)
+- `git-credential-gnome-keyring`: Git credentials helper
+- `redshift`: F.lux alternative (tints your screen to make it easier on your eyes)
+- `compton`: Compositor
+- `pulseaudio / -alsa`: Audio driver
 - `Spicetify`: Spotify theming CLI tool
 - `NetworkManager`: 'Networking that just works'
   - `nm-applet`: GTK Applet for NetworkManager
@@ -46,7 +47,6 @@ Dot files for my Arch Linux (5.4.15) + i3wm setup used on my Dell XPS 15 9560.
 - `gotop`: Beautiful TUI activity monitor
 - plug
 - `xcwd`: Used to open a new terminal in the same directory as the current focused terminal
-- `git-credential-gnome-keyring`: Git credentials helper
 - Fonts:
   - Tamzen
   - Terminus
