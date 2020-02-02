@@ -39,6 +39,7 @@ Dot files for my Arch Linux (5.4.15) + i3wm setup used on my Dell XPS 15 9560.
 - redshift
 - compton
 - pulseaudio / -alsa
+- `Spicetify`: Spotify theming CLI tool
 - `NetworkManager`: 'Networking that just works'
   - `nm-applet`: GTK Applet for NetworkManager
 - `pamixer`: Pulseaudio manager
