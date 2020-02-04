@@ -9,10 +9,8 @@
 
 [colors]
 background = ${xrdb:color0:#222}
-;background = #222
 background-alt = #444
 foreground = ${xrdb:color7:#222}
-;foreground = #dfdfdf
 foreground-alt = #555
 primary = #ffb52a
 secondary = #e60053
@@ -23,8 +21,6 @@ alert = #bd2c40
 monitor = eDP1
 width = 100%
 height = 25
-;offset-x = 5%
-;offset-y = 5%
 radius = 0.0
 fixed-center = true
 bottom = true
@@ -45,12 +41,10 @@ module-margin-left = 1
 module-margin-right = 0
 
 font-0 = "xos4 Terminus:pixelsize=14;1"
-#font-0 = "FiraMono:pixelsize=12"
-font-1 = unifont:fontformat-truetype:size=8:antialias=false;0
-font-2 = "Wuncon Siji:pixelsize=10;1"
-font-3 = "Font Awesome 5 Free:style=Regular:pixelsize=12;1"
-font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=12;1"
-font-5 = "Font Awesome 5 Brands:pixelsize=12;1"
+font-1 = "Wuncon Siji:pixelsize=10;1"
+font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=12;1"
+font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=12;1"
+font-4 = "Font Awesome 5 Brands:pixelsize=12;1"
 
 modules-left = i3
 modules-center = xwindow
@@ -58,19 +52,6 @@ modules-right = xkeyboard volume xbacklight wlan eth battery date
 
 tray-position = right
 tray-padding = 2
-;tray-transparent = true
-;tray-background = #0063ff
-
-;wm-restack = bspwm
-;wm-restack = i3
-
-;override-redirect = true
-
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -83,7 +64,7 @@ label = %title:0:95:...%
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-prefix-underline = ${colors.secondary}
 
@@ -129,9 +110,6 @@ type = internal/i3
 format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
-
-; Only show workspaces on the same output as the bar
-#pin-workspaces = true
 
 label-mode-padding = 0
 label-mode-foreground = #000
@@ -222,11 +200,12 @@ format-disconnected =
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = 
+;ramp-signal-0 = 
+;ramp-signal-1 = 
+;ramp-signal-2 = 
+;ramp-signal-3 = 
+;ramp-signal-4 = 
 ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
@@ -255,7 +234,7 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix =
+format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
@@ -264,9 +243,8 @@ label = %date% %time%
 [module/volume]
 type = internal/volume
 
-;ramp-volume-0 = 
 ramp-volume-0 = 
-;ramp-volume-2 = 
+ramp-volume-1 = 
 
 format-volume = <ramp-volume> <bar-volume>
 
@@ -305,9 +283,11 @@ format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
 ramp-capacity-foreground = ${colors.foreground-alt}
 
 animation-charging-0 = 
