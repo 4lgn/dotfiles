@@ -182,12 +182,12 @@ bindsym $mod+Control+x mode "resize"
 #	Color/Gaps/Etc. 	#
 
 # Window border
-new_window pixel 2
-default_border pixel 2
+new_window pixel 4
+default_border pixel 4
 
 # Setup gaps
-gaps inner 0
-gaps outer 0
+# gaps inner 0
+# gaps outer 0
 
 ###--- i3 coloring ---###
 # Make it clear when failed using red - otherwise set i3 colors with wal from xresources
