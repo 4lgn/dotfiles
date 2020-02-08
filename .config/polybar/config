@@ -19,6 +19,7 @@ alert = #bd2c40
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 monitor = eDP1
+;monitor = HDMI1
 width = 100%
 height = 25
 radius = 0.0

@@ -1,6 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/alex/Documents'
-let g:netrw_dirhist_2='/home/alex/.config/polybar'
-let g:netrw_dirhist_3='/home/alex/Desktop'
-let g:netrw_dirhist_4='/home/alex/temp'
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/etc/X11/xorg.conf.d'
+let g:netrw_dirhist_9='/etc/X11/xinit/xinitrc.d'
+let g:netrw_dirhist_8='/etc/bumblebee'
+let g:netrw_dirhist_7='/etc/systemd/system'
+let g:netrw_dirhist_6='/etc/systemd/system/sysinit.target.wants'
+let g:netrw_dirhist_5='/etc/systemd/system'
+let g:netrw_dirhist_4='/etc/systemd/system/multi-user.target.wants'
+let g:netrw_dirhist_3='/etc/systemd/system'
+let g:netrw_dirhist_2='/etc/systemd/system/multi-user.target.wants'
+let g:netrw_dirhist_1='/etc/systemd/system'

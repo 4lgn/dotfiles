@@ -28,6 +28,7 @@ Dot files for my Arch Linux (5.4.15) + i3wm setup used on my Dell XPS 15 9560.
   - `libinput-gestures`: Custom touchpad gestures
 - `pywal`: Automatic theming
 - `neofetch`: System info
+- `ranger`: File explorer
 
 ## Secondary packages/dependencies
 
@@ -63,6 +64,33 @@ Bumblebee to blacklist nvidia GPU for power saving.
 blacklist nouveau
 blacklist nvidia
 blacklist psmouse
+```
+/etc/systemd/system/disable-turbo-boost.service
+
+```
+[Unit]
+Description=Disable Turbo Bost on Intel CPU
+
+[Service]
+ExecStart=/bin/sh -c "/usr/bin/echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo"      
+ExecStop=/bin/sh -c "/usr/bin/echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo"      
+
+[Install]
+WantedBy=sysinit.target
+```
+
+/etc/systemd/system/powertop.service
+
+```
+[Unit]
+Description=Powertop tunings
+
+[Service]
+ExecStart=/usr/bin/powertop --auto-tune
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
 ```
 
 ### Kernel parameters
