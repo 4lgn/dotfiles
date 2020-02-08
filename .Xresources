@@ -1,6 +1,5 @@
 URxvt*scrollBar: false
 
-;URxvt*font:	xft:xos4 Terminus:style=regular:size=10:antialias=true
 URxvt*font:	xft:Tamzen:style=regular:size=12
 URxvt*iso14755: false
 URxvt*iso14755_52: false

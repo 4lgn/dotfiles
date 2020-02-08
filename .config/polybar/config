@@ -16,8 +16,7 @@ primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
 
-[bar/example]
-;monitor = ${env:MONITOR:HDMI-1}
+[bar/main]
 monitor = eDP1
 ;monitor = HDMI1
 width = 100%
@@ -118,17 +117,13 @@ label-mode-background = ${colors.primary}
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
-;label-focused-background = ${module/bspwm.label-focused-background}
-;label-focused-background = #25ffffff
 label-focused-background = 
 label-focused-foreground = ${xrdb:color4:#222}
 label-focused-underline = ${module/bspwm.label-focused-underline}
-;label-focused-padding = ${module/bspwm.label-focused-padding}
 label-focused-padding = 1
 
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = %index%
-;label-unfocused-padding = ${module/bspwm.label-occupied-padding}
 label-unfocused-padding = 1
 
 ; visible = Active workspace on unfocused monitor
@@ -347,13 +342,7 @@ menu-2-1-exec = menu-open-0
 
 [settings]
 screenchange-reload = true
-;compositing-background = xor
-;compositing-background = screen
-;compositing-foreground = source
-;compositing-border = over
 
 [global/wm]
 margin-top = 5
 margin-bottom = 5
-
-; vim:ft=dosini

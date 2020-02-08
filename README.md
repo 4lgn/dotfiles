@@ -39,7 +39,7 @@ Dot files for my Arch Linux (5.4.15) + i3wm setup used on my Dell XPS 15 9560.
 - `libsecret`: Github credentials helper (Use gnome-keyring instead though)
 - `git-credential-gnome-keyring`: Git credentials helper
 - `redshift`: F.lux alternative (tints your screen to make it easier on your eyes)
-- `compton`: Compositor
+- `picom`: Compositor
 - `pulseaudio / -alsa`: Audio driver
 - `Spicetify`: Spotify theming CLI tool
 - `NetworkManager`: 'Networking that just works'
