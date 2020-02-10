@@ -23,7 +23,7 @@ feh --bg-fill ~/Wallpapers/gruvbox.png
 xrdb -load ~/.Xresources
 # Launch polybar
 #polybar -r example
-~./config/polybar/launch.sh
+~/.config/polybar/launch.sh
 # Change from ugly 'X' cursor when hovering over background
 xsetroot -cursor_name left_ptr
 # Make betterlockscreen generate and cache a background image for locking
