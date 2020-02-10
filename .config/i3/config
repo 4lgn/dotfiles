@@ -236,11 +236,12 @@ bindsym XF86AudioNext           exec dbus-send --print-reply --dest=org.mpris.Me
 bindsym XF86AudioPrev           exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
 bindsym $mod+F4			        exec $term -e scrot
 #bindsym $mod+shift+w	        exec ~/Scripts/rofi-wifi-menu/rofi-wifi-menu.sh
-bindsym $mod+shift+s            exec $term -e nmcli device wifi rescan
+#bindsym $mod+shift+s            exec $term -e nmcli device wifi rescan
 bindsym $mod+i			        exec --no-startup-id intellij-idea-ultimate-edition
 bindsym $mod+c			        exec --no-startup-id code
-bindsym $mod+b			        exec --no-startup-id bluej
-bindsym $mod+s			        exec --no-startup-id spotify
+bindsym $mod+s			        scratchpad show
+bindsym $mod+shift+s	        move scratchpad
+bindsym $mod+m                  exec --no-startup-id spotify
 bindsym $mod+shift+i            exec --no-startup-id imgur-screenshot
 bindsym $mod+ctrl+i             exec --no-startup-id maim -s | xclip -selection clipboard -t image/png 
 
@@ -255,8 +256,8 @@ exec xinput set-prop "DLL07BE:01 06CB:7A13 Touchpad" "libinput Click Method Enab
 # Enable gesture controls on startup - not needed anymore due to "libinput-gestures-setup autostart" and proper libinput configuration..
 exec --no-startup-id libinput-gestures-setup start
 
-# Enable compton on startup
-exec --no-startup-id compton --xrender-sync-fence
+# Enable picom on startup
+exec --no-startup-id picom --xrender-sync-fence
 
 #Unclutter makes the mouse invisible after a brief period
 # exec --no-startup-id unclutter
