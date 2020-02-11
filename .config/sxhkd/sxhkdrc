@@ -147,3 +147,17 @@ super + x
     betterlockscreen -l
 
 
+super + F1
+    pamixer -d 10
+
+super + F2
+    pamixer -i 10
+
+super + F3
+    mpc prev
+
+super + F4
+    mpc pause
+
+super + F5
+    mpc next

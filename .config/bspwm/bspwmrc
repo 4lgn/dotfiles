@@ -28,3 +28,5 @@ xrdb -load ~/.Xresources
 xsetroot -cursor_name left_ptr
 # Make betterlockscreen generate and cache a background image for locking
 betterlockscreen -u ~/Wallpapers/gruvbox.png
+# Start picom (compton)
+picom

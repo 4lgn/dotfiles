@@ -1,11 +1,12 @@
 " --- Plugin section --- "
 call plug#begin('~/.vim/plugged')
 
-" --- Theming --- "
-Plug 'dylanaraps/wal'
+" --- Status line --- "
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+
+" --- Theming --- "
 Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline-themes'
 
 " --- Completion and syntax --- "
 
@@ -28,7 +29,7 @@ colorscheme gruvbox
 " Airline powerline fonts fix
 let g:airline_powerline_fonts = 1
 " Airline theme
-let g:airline_theme = 'bubblegum'
+let g:airline_theme = 'gruvbox'
 
 " User-specific Settings.
 
