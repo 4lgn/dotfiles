@@ -1,18 +1,34 @@
 # Dotfiles
-Dot files for my Arch Linux (5.4.15) + i3wm setup used on my Dell XPS 15 9560.
 
-# Screenshots
+Dot files for my Arch Linux (5.5.2) + i3wm setup used on my Dell XPS 15 9560.
 
-![Screenshot](https://i.imgur.com/fapJT2j.jpg)
-![Screenshot](https://i.imgur.com/GCo2JT6.png)
-![Screenshot](https://i.imgur.com/XYJDoKI.png)
-![Screenshot](https://i.imgur.com/MqSP16T.png)
-![Screenshot](https://i.imgur.com/U634tEQ.jpg)
-![Screenshot](https://i.imgur.com/lgGRzTH.png)
-![Screenshot](https://i.imgur.com/BREgiaX.jpg)
-![Screenshot](https://i.imgur.com/GFbw078.jpg)
+(NOTE: These are the i3wm dotfiles, my bspwm setup is located in the [bspwm branch](https://github.com/Alexrazz/dotfiles/tree/bspwm))
 
-## Primary packages
+## Table of contents
+
+<!--ts-->
+   * [Screenshots](#screenshots)
+   * [Packages](#packages)
+      * [Primary](#primary)
+      * [Secondary](#secondary)
+   * [Installation](#installation)
+   * [Device/hardware specific settings](#devicehardware-specific-settings)
+      * [Disabled modules](#disabled-modules)
+      * [Disabling turbo boost](#disabling-turbo-boost)
+      * [Enable powertop auto tune](#enable-powertop-auto-tune)
+      * [Kernel parameters](#kernel-parameters)
+   
+   
+<!--te-->
+
+
+## Screenshots
+
+![Screenshot](https://i.imgur.com/QGGdn0f.jpg)
+
+## Packages
+
+### Primary
 
 - `rofi`: Application launcher
 - `fish`: Shell
@@ -31,7 +47,7 @@ Dot files for my Arch Linux (5.4.15) + i3wm setup used on my Dell XPS 15 9560.
 - `neofetch`: System info
 - `ranger`: File explorer
 
-## Secondary packages/dependencies
+### Secondary
 
 - `w3m`: Used to display images in ranger
 - `imgur-screenshot`: Screenclip to imgur
@@ -55,20 +71,30 @@ Dot files for my Arch Linux (5.4.15) + i3wm setup used on my Dell XPS 15 9560.
   - FontAwesome
   - Adobe Source Code Pro
 
+
+## Installation
+
+Check out the [Installation](https://github.com/Alexrazz/dotfiles/tree/i3wm/Installation) folder, it includes a installation guide and some setup scripts to assist with installing Arch Linux as fast as possible.
+
+
 ## Device/hardware specific settings
 
-Bumblebee to blacklist nvidia GPU for power saving.
+These are some of the tweaks I've made for my specific setup, most of them are to optimize battery lifetime
 
-/etc/modprobe.d/blacklist.conf:
+### Disabled modules
 
 ```
+/etc/modprobe.d/blacklist.conf
+
 blacklist nouveau
 blacklist nvidia
 blacklist psmouse
 ```
-/etc/systemd/system/disable-turbo-boost.service
+### Disabling turbo boost
 
 ```
+/etc/systemd/system/disable-turbo-boost.service
+
 [Unit]
 Description=Disable Turbo Bost on Intel CPU
 
@@ -80,9 +106,13 @@ ExecStop=/bin/sh -c "/usr/bin/echo 1 > /sys/devices/system/cpu/intel_pstate/no_t
 WantedBy=sysinit.target
 ```
 
-/etc/systemd/system/powertop.service
+### Enable powertop auto tune
+
+*TLP can be used instead of this if you want a less aggressive power tuning.*
 
 ```
+/etc/systemd/system/powertop.service
+
 [Unit]
 Description=Powertop tunings
 
@@ -107,3 +137,4 @@ add_efi_memmap rw quiet splash i915.modeset=1 nouveau.modeset=0 acpi_rev_overrid
 - `acpi_rev_override=1`: This is the most important setting, as this prevents some freezing issues I had due to the nvidia card not working well with ACPI.
 - `quiet` and `splash`: Personal preference to not show every boot message at boot (I'd just remove these if something seems wrong)
 - `add_efi_memmap` and `rw`: Probably not needed anymore and `rw` are usually default anyways.
+
