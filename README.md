@@ -1,4 +1,4 @@
-# Dotfiles
+# I3WM .files
 
 Dot files for my Arch Linux (5.5.2) + i3wm setup used on my Dell XPS 15 9560.
 
