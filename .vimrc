@@ -8,13 +8,6 @@ Plug 'taohex/lightline-buffer'
 Plug 'morhetz/gruvbox'
 
 " --- Completion and syntax --- "
-Plug 'ionide/Ionide-vim', {
-      \ 'do':  'make fsautocomplete',
-      \}
-Plug 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'next',
-    \ 'do': 'bash install.sh',
-    \ }
 
 " Editing and usability
 Plug 'jiangmiao/auto-pairs'
