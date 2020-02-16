@@ -8,9 +8,17 @@ Plug 'taohex/lightline-buffer'
 Plug 'morhetz/gruvbox'
 
 " --- Completion and syntax --- "
+Plug 'ionide/Ionide-vim', {
+      \ 'do':  'make fsautocomplete',
+      \}
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
 
 " Editing and usability
 Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/nerdtree'
 
 " --- Programming Languages ---
 Plug 'sheerun/vim-polyglot'
@@ -71,6 +79,8 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+" Sensible way of quitting terminal mode
+tnoremap <Esc> <C-\><C-n>
 " Bind to clear search
 nmap <leader>/ :nohlsearch<CR>
 
