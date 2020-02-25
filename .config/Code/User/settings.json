@@ -33,14 +33,13 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "workbench.colorTheme": "Gruvbox Dark Medium",
     "editor.minimap.enabled": false,
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.titleBarStyle": "custom",
-    "workbench.iconTheme": "file-icons",
+    "workbench.iconTheme": "vscode-great-icons",
     "emmet.syntaxProfiles": {
         "javascript": "jsx",
         "xml": {
@@ -62,4 +61,5 @@
         "jacoco.xml"
     ],
     "FSharp.useSdkScripts": true,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
 }

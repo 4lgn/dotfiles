@@ -4,3 +4,5 @@ alias vimgolf "~/.gem/ruby/2.6.0/gems/vimgolf-0.4.8/bin/vimgolf"
 # Dotnet stuff
 set PATH /home/alex/.dotnet/tools $PATH
 set DOTNET_ROOT /opt/dotnet $DOTNET_ROOT
+# Ssh-agent
+set -x SSH_AUTH_SOCK "$XDG_RUNTIME_DIR/ssh-agent.socket"
