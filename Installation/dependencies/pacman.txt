@@ -98,7 +98,9 @@ mdadm
 nano
 ncmpcpp
 neofetch
+net-tools
 netctl
+netdiscover
 network-manager-applet
 networkmanager
 nmap
@@ -108,6 +110,7 @@ npm
 ntp
 openvpn
 os-prober
+otf-fantasque-sans-mono
 otf-font-awesome
 p7zip
 pacman
@@ -137,7 +140,6 @@ ranger
 redshift
 refind-efi
 reiserfsprogs
-rider
 rofi
 rxvt-unicode
 s-nail
@@ -174,9 +176,11 @@ texlive-pstricks
 texlive-publishers
 texlive-science
 thunderbird
+tree
 ttf-dejavu
 ttf-font-awesome
 ttf-inconsolata
+ttf-iosevka
 ttf-liberation
 ttf-roboto
 unrar
@@ -232,4 +236,5 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+yarn
 yay
