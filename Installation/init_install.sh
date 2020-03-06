@@ -18,7 +18,7 @@ yay -S tamzen-font polybar --removemake --nocleanmenu --nodiffmenu --noeditmenu
 
 sudo pip3 install pywal
 
-cp -rT ~/dotfilesv2 ~
+cp -rT ~/dotfiles ~
 
 curl https://images.wallpaperscraft.com/image/lupine_flowers_blue_159513_7360x4912.jpg > ~/wallpaper.jpg
 
