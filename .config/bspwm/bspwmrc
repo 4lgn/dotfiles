@@ -23,11 +23,29 @@ feh --bg-fill ~/Wallpapers/gruvbox.png
 # Reload .Xresources
 xrdb -load ~/.Xresources
 # Launch polybar
-#polybar -r example
 ~/.config/polybar/launch.sh
 # Change from ugly 'X' cursor when hovering over background
 xsetroot -cursor_name left_ptr
 # Make betterlockscreen generate and cache a background image for locking
 betterlockscreen -u ~/Wallpapers/gruvbox.png
-# Start picom (compton)
-picom
+# ------- Autostart apps ------
+# Picom
+picom --xrender-sync-fence &
+# Dunst
+dunst &
+# Dropbox
+dropbox &
+
+# ------- Mouse/Touchpad fixes ------
+# Start libinput gestures
+libinput-gestures-setup start
+# Xinput configs (touchpad)
+xinput set-prop "DLL07BE:01 06CB:7A13 Touchpad" "libinput Natural Scrolling Enabled" 1
+xinput set-prop "DLL07BE:01 06CB:7A13 Touchpad" "libinput Click Method Enabled" 0 1
+# ------- Keyboard fixes ------
+# Remap Caps-lock key to Escape, for using VIM
+setxkbmap -option caps:escape
+# Make US and DK keyboard layout togglable with Shift+Alt
+setxkbmap -layout us,dk -option grp:alt_shift_toggle
+
+
