@@ -17,8 +17,8 @@ configuration {
     border: 0;
     border-radius: 4px;
     padding: 50;
-    width: 23%;
-    height: 40%;
+    width: 28%;
+    height: 50%;
 }
  
 #mainbox {
