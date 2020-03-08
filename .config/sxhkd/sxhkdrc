@@ -31,64 +31,34 @@ super + shift + e
     bspc quit
 
 # close and kill
-super + {_,shift + }q
-	bspc node -{c,k}
-
-# alternate between the tiled and monocle layout
-super + m
-	bspc desktop -l next
-
-# send the newest marked node to the newest preselected node
-super + y
-	bspc node newest.marked.local -n newest.!automatic.local
-
-# swap the current node and the biggest node
-super + g
-	bspc node -s biggest
+super + shift + q
+	bspc node -c
 
 #
 # state/flags
 #
 
 # set the window state
-super + {t,shift + t,s,f}
+super + {t,shift + t,shift + space,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # set the node flags
-super + ctrl + {m,x,y,z}
-	bspc node -g {marked,locked,sticky,private}
+#super + ctrl + {m,x,y,z}
+#	bspc node -g {marked,locked,sticky,private}
 
 #
 # focus/swap
 #
 
 # focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
-	bspc node -{f,s} {west,south,north,east}
+#super + {_,shift + }{h,j,k,l}
+#	bspc node -{f,s} {west,south,north,east}
 super + {_,shift + }{Left,Down,Up,Right}
 	bspc node -{f,s} {west,south,north,east}
 
-# focus the node for the given path jump
-super + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
-
 # focus the next/previous node in the current desktop
-super + {_,shift + }c
+super + {_,shift + }Tab
 	bspc node -f {next,prev}.local
-
-# focus the next/previous desktop in the current monitor
-super + bracket{left,right}
-	bspc desktop -f {prev,next}.local
-
-# focus the last node/desktop
-super + {grave,Tab}
-	bspc {node,desktop} -f last
-
-# focus the older or newer node in the focus history
-super + {o,i}
-	bspc wm -h off; \
-	bspc node {older,newer} -f; \
-	bspc wm -h on
 
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
@@ -110,10 +80,6 @@ super + ctrl + {1-9}
 super + ctrl + space
 	bspc node -p cancel
 
-# cancel the preselection for the focused desktop
-super + ctrl + shift + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
-
 #
 # move/resize
 #
@@ -126,16 +92,12 @@ super + alt + {h,j,k,l}
 super + alt + shift + {h,j,k,l}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
-# move a floating window
-super + {Left,Down,Up,Right}
-	bspc node -v {-20 0,0 20,0 -20,20 0}
-
 # ===================================
 # ========== User-specific ==========
 # ===================================
 
 super + w
-	chromium
+	firefox
 
 super + r
 	urxvt -e ranger
@@ -146,18 +108,42 @@ super + shift + r
 super + x
     betterlockscreen -l
 
+super + s
+    ~/Scripts/scratchy.sh
 
-super + F1
-    pamixer -d 10
+super + shift + s
+    spotify
 
-super + F2
-    pamixer -i 10
+super + k
+    KeeWeb
 
-super + F3
-    mpc prev
+super + c
+    code
 
-super + F4
-    mpc pause
+super + shift + i
+    imgur-screenshot
 
-super + F5
-    mpc next
+super + ctrl + i
+    maim -s | xclip -selection clipboard -t image/png 
+
+# Screen brightness control
+XF86MonBrightnessDown
+    xbacklight -dec 15
+XF86MonBrightnessUp
+    xbacklight -inc 15
+# Volume control
+XF86AudioRaiseVolume
+    /usr/bin/pulseaudio-ctl up 10
+XF86AudioLowerVolume
+    /usr/bin/pulseaudio-ctl down 10
+XF86AudioMute
+    pactl set-sink-mute 0 toggle
+# Play/pause
+XF86AudioPlay
+    dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause 
+# Next/prev
+XF86AudioNext
+    dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
+XF86AudioPrev
+    dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
+
