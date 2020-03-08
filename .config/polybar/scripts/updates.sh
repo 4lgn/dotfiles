@@ -23,7 +23,7 @@ while true; do
     fi
 
     # when there are updates available
-    # every 10 seconds another check for updates is done
+    # every 200 seconds another check for updates is done
     while (( UPDATES > 0 )); do
         if (( UPDATES == 1 )); then
             echo "$UPDATES Update"
@@ -32,7 +32,7 @@ while true; do
         else
             echo $BAR_ICON
         fi
-        sleep 10
+        sleep 200
         get_total_updates
     done
 

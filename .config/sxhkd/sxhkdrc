@@ -15,7 +15,7 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 # Open sxhkdrc config file
-super + shift + F1
+super F1
 	urxvt -e vim /home/alex/.config/sxhkd/sxhkdrc
 
 #
@@ -23,7 +23,7 @@ super + shift + F1
 #
 
 # restart bspwm
-super + shift + F2
+super F2
 	bspc wm -r
 
 # quick bspwm
