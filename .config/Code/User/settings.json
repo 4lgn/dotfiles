@@ -1,0 +1,65 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "\"Iosevka\"",
+    "editor.lineNumbers": "relative",
+    "keyboard.dispatch": "keyCode",
+    "window.zoomLevel": 1,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "vim.useSystemClipboard": true,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontFamily": "Iosevka",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+            ]
+        }
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.titleBarStyle": "custom",
+    "workbench.iconTheme": "vscode-great-icons",
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+        "xml": {
+            "attr_quotes": "single"
+        }
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "extensions.autoUpdate": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "coverage-gutters.coverageFileNames": [
+        "lcov.info",
+        "coverage.info",
+        "cov.xml",
+        "jacoco.xml"
+    ],
+    "FSharp.useSdkScripts": true,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+}
