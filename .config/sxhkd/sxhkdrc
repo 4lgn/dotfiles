@@ -106,7 +106,7 @@ super + shift + r
 	urxvt -e sudo ranger
 
 super + x
-    betterlockscreen -l
+    sudo betterlockscreen -l
 
 super + s
     ~/Scripts/scratchy.sh
