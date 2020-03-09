@@ -140,7 +140,7 @@ super + alt + shift + {h,j,k,l}
 # ===================================
 
 super + w
-	firefox
+	chromium
 
 super + r
 	urxvt -e ranger
