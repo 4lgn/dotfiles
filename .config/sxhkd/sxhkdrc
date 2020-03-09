@@ -171,9 +171,9 @@ super + ctrl + i
 
 # Screen brightness control
 XF86MonBrightnessDown
-    xbacklight -dec 15
+    sudo light -U 10
 XF86MonBrightnessUp
-    xbacklight -inc 15
+    sudo light -A 10
 # Volume control
 XF86AudioRaiseVolume
     /usr/bin/pulseaudio-ctl up 10
