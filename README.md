@@ -75,10 +75,40 @@ Dot files for my Arch Linux (5.5.2) + bspwm setup used on my Dell XPS 15 9560.
 
 ## Installation
 
-**Currently I only have an installation script for my i3wm setup... that can be found [here](https://github.com/Alexrazz/dotfiles/tree/i3wm/Installation). (also includes easy arch installation scripts)**
+Installation and the dotfiles are to be managed with [yadm](https://yadm.io/), thus installation is done through cloning the repository using `yadm clone`, and executing the bootstrapping script with `yadm bootstrap`.
 
-Installation for this bspwm setup will come later.
+Thus, if you have a completely fresh install of arch, do the following:
 
+- `$ curl -fLo /usr/local/bin/yadm https://github.com/TheLocehiliosan/yadm/raw/master/yadm && chmod a+x /usr/local/bin/yadm`
+- `$ yadm clone -branch bspwm https://github.com/4lgn/dotfiles`
+- `$ yadm bootstrap`
+
+The bootstrapping script should setup and install most things, and get you a completely usable system. There are, however, still some further configuration needed for some of the applications that I use. The following sub-sections will cover these extra setups.
+
+### LightDM setup
+
+Make sure you have the following packages installed:
+
+```
+pacman -S --needed lightdm lightdm-webkit2-greeter lightdm-webkit-theme-litarvan
+```
+
+- Edit `/etc/lightdm/lightdm.conf` and set `greeter-session=lightdm-webkit2-greeter`.
+- Then edit `/etc/lightdm/lightdm-webkit.conf` and set theme or `webkit-theme` to `litarvan`.
+- Enable the LightDM as a systemd service: `systemctl enable lightdm`
+
+### Vim setup
+
+Open vim and execute `:PlugInstall`
+
+### Firefox setup
+
+- Go to `about:config`
+- Enable `toolkit.legacyUserProfileCustomizations.stylesheets`
+- Go to `about:addons`
+- Enable the `Dark theme` if not already enabled
+- Copy the contents of my firefox profile to yours, located at `.mozilla/firefox/<your-profile-name>/chrome/`
+- Optionally remove some of the extra icons in the `Customize` menu
 
 ## Device/hardware specific settings
 
