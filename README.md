@@ -40,20 +40,21 @@ Dot files for my Arch Linux (5.5.2) + bspwm setup used on my Dell XPS 15 9560.
 - `vim-plug`: Vim Plugin Manager
 - `polybar`: Status bar
 - `firefox`: Browser
+- `chromium`: Browser
 - `evince`: PDF reader
 - `betterlockscreen`: Lock screen
 - `libinput`: Touch pad driver
   - `libinput-gestures`: Custom touchpad gestures
 - `neofetch`: System info
 - `ranger`: File explorer
+- `lightdm`: Display Manager
 
 ### Secondary
 
-- `ueberzug`: Used to display images in ranger
+- `w3m`: Used to display images in ranger
 - `imgur-screenshot`: Screenclip to imgur
 - `maim`: Screenclip to clipboard
 - `KeeWeb`: Password manager
-- `git-credential-gnome-keyring`: Git credentials helper
 - `redshift`: F.lux alternative (tints your screen to make it easier on your eyes)
 - `picom`: Compositor
 - `pulseaudio / -alsa`: Audio driver
@@ -66,6 +67,10 @@ Dot files for my Arch Linux (5.5.2) + bspwm setup used on my Dell XPS 15 9560.
 - `xcwd`: Used to open a new terminal in the same directory as the current focused terminal
 - Fonts:
   - Iosevka
+  - noto-fonts
+  - ttf-font-awesome
+  - icomoon-feather
+
 
 
 ## Installation
@@ -87,6 +92,8 @@ These are some of the tweaks I've made for my specific setup, most of them are t
 blacklist nouveau
 blacklist nvidia
 blacklist psmouse
+blacklist btusb
+blacklist bluetooth
 ```
 ### Disabling turbo boost
 
