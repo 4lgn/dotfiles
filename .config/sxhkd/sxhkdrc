@@ -6,6 +6,10 @@
 super + Return
 	urxvt
 
+# terminal emulator in same window as currently focused
+super + shift + Return
+	urxvt -cd "`xcwd`"
+
 # program launcher
 super + d
 	rofi -modi run,drun -show drun -columns 1 -width 24 -lines 8 -padding 45 -hide-scrollbar -show-icons -drun-icon-theme "Papirus"
