@@ -241,3 +241,6 @@ input#urlbar-input {
 	margin: 0 !important;
 }
 
+/* Fix annoying context menu right clicking "feature" on i3 and bspwm */
+#contentAreaContextMenu{ margin: 2px 0 0 2px }
+
