@@ -61,7 +61,6 @@ mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 # Make pacman display colored output
 sudo sed -i 's/#Color/Color/g' /etc/pacman.conf
 
-
 # =========================================
 # Install oh my zsh and zsh-autosuggestions
 # =========================================

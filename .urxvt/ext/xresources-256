@@ -1,0 +1,25 @@
+#! perl
+
+=head1 NAME
+
+xresources-256 - read all 256 colors from X resources
+
+=head1 DESCRIPTION
+
+Reads all 256 colors from X resources. By default only colors 0-15 are read, this extenstion loads the rest.
+
+=cut
+
+sub on_start {
+   my ($self) = @_;
+
+   for (my $i=16; $i <= 255; $i++) {
+      my $color = $self->x_resource("color$i");
+      if ($color) {
+         $self->cmd_parse("\033]4;$i;$color\033\\");
+      }
+   }
+   ()
+}
+
+
