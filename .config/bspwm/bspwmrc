@@ -18,7 +18,7 @@ bspc config gapless_monocle      true
 # ------- Non-BSPWM related ------
 # --------------------------------
 # Set wallpaper
-feh --bg-fill ~/Wallpapers/gruvbox.png
+feh --bg-fill ~/Documents/Wallpapers/gruvbox.png
 # Reload .Xresources
 xrdb -load ~/.Xresources
 # Launch polybar
@@ -26,7 +26,7 @@ xrdb -load ~/.Xresources
 # Change from ugly 'X' cursor when hovering over background
 xsetroot -cursor_name left_ptr
 # Make betterlockscreen generate and cache a background image for locking
-sudo betterlockscreen -u ~/Wallpapers/gruvbox.png
+sudo betterlockscreen -u ~/Documents/Wallpapers/gruvbox.png
 # ------- Autostart apps ------
 # Picom
 picom --xrender-sync-fence &
