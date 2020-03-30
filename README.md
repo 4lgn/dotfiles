@@ -110,6 +110,19 @@ Simply open vim and it should automatically install everything the first time. I
 - Copy the contents of my firefox profile to yours, located at `.mozilla/firefox/<your-profile-name>/chrome/`
 - Optionally remove some of the extra icons in the `Customize` menu
 
+### Rounded corners (bspwm fork)
+
+To get the rounded corners in bspwm, I currently use a fork of bspwm by [dylanaraps](https://github.com/dylanaraps), found [here](https://github.com/dylanaraps/bspwm).
+
+To patch your current bspwm with these changes, do the following:
+
+- `$ git clone https://github.com/dylanaraps/bspwm`
+- `$ cd bspwm`
+- `$ make && sudo make install`
+- Restart your X session.
+
+Now, unfortunately, as you will quickly notice with this fork, these corners are not anti-aliased and are quite jagged. There is currently some open issues and discussion on getting anti-aliased corners, especially a pull request by [sdhand](https://github.com/sdhand) is quite promising, found [here](https://github.com/yshui/picom/pull/229). As of writing, none of the solutions out there are without compromises or problems, so I choose to live with jagged corners as of the time being.
+
 ## Device/hardware specific settings
 
 These are some of the tweaks I've made for my specific setup, most of them are to optimize battery lifetime
