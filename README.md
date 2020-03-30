@@ -75,12 +75,12 @@ Dot files for my Arch Linux (5.5.2) + bspwm setup used on my Dell XPS 15 9560.
 
 ## Installation
 
-Installation and the dotfiles are to be managed with [yadm](https://yadm.io/), thus installation is done through cloning the repository using `yadm clone`, and executing the bootstrapping script with `yadm bootstrap`.
+Installation and the dotfiles are to be managed with [yadm](https://yadm.io/), thus installation is done through cloning the repository using `yadm clone`, and then confirm running the bootstrapping script when prompted to. If not prompted after cloning, executing the bootstrapping script can be done at any time with `yadm bootstrap`.
 
 Thus, if you have a completely fresh install of arch, do the following:
 
 - `$ curl -fLo /usr/local/bin/yadm https://github.com/TheLocehiliosan/yadm/raw/master/yadm && chmod a+x /usr/local/bin/yadm`
-- `$ yadm clone -branch bspwm https://github.com/4lgn/dotfiles`
+- `$ yadm clone https://github.com/4lgn/dotfiles -b bspwm`
 - `$ yadm bootstrap`
 
 The bootstrapping script should setup and install most things, and get you a completely usable system. There are, however, still some further configuration needed for some of the applications that I use. The following sub-sections will cover these extra setups.
@@ -99,7 +99,7 @@ pacman -S --needed lightdm lightdm-webkit2-greeter lightdm-webkit-theme-litarvan
 
 ### Vim setup
 
-Open vim and execute `:PlugInstall`
+Simply open vim and it should automatically install everything the first time. If something is wrong, or nothing seemed to have been installed, run `:PlugInstall` from within vim.
 
 ### Firefox setup
 
