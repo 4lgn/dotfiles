@@ -33,8 +33,6 @@ yay -S polybar rxvt-unicode-256xresources spicetify-cli ttf-iosevka python-ueber
 mkdir ~/Documents &> /dev/null
 mkdir ~/Documents/Wallpapers &> /dev/null
 curl https://i.imgur.com/XCaXGFB.png > ~/Documents/Wallpapers/gruvbox.png
-echo '#!/bin/sh\nfeh --no-fehbg --bg-fill ~/Documents/Wallpapers/gruvbox.png' > ~/.fehbg
-echo 'eval `cat .fehbg`' >> .xinitrc
 
 # ====================================
 # Polybar font
@@ -77,7 +75,7 @@ echo "==== DONE ===="
 echo "=============="
 echo "$ chsh -s /bin/zsh"
 echo "$ startx"
-echo "$ feh --bg-fill ~/wallpaper.png"
+echo "$ feh --bg-fill ~/Documents/Wallpapers/wallpaper.png"
 
 # Change to zsh
 zsh

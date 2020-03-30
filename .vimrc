@@ -22,7 +22,7 @@ Plug 'jiangmiao/auto-pairs'
 
 " --- Programming Languages ---
 Plug 'sheerun/vim-polyglot'
-Plug 'davidhalter/jedi-vim'
+"Plug 'davidhalter/jedi-vim'
 
 " Initialize plugin system
 call plug#end()
