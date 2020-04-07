@@ -4,6 +4,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/alex/.oh-my-zsh"
 
+export virtualenv="python -m virtualenv"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -71,6 +73,7 @@ ZSH_THEME="agnoster"
 plugins=(
     git
     zsh-autosuggestions
+    autoswitch_virtualenv $plugins
 )
 
 source $ZSH/oh-my-zsh.sh
