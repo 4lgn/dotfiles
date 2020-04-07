@@ -23,7 +23,7 @@ else
 fi
 
 
-yay -S polybar rxvt-unicode-256xresources spicetify-cli ttf-iosevka python-ueberzug spotify betterlockscreen --needed --removemake --nocleanmenu --nodiffmenu --noeditmenu --noconfirm
+yay -S polybar rxvt-unicode-256xresources spicetify-cli nerd-fonts-iosevka python-ueberzug spotify betterlockscreen --needed --removemake --nocleanmenu --nodiffmenu --noeditmenu --noconfirm
 
 
 # ====================================
@@ -46,7 +46,7 @@ mv icomoon-feather.ttf ~/.local/share/fonts/
 fc-cache -vf ~/.local/share/fonts/
 
 # ====================================
-# Polybar arrow fix
+# Powerline arrow fix
 # ====================================
 
 wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
@@ -67,6 +67,7 @@ sudo sed -i 's/#Color/Color/g' /etc/pacman.conf
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh) --unattended --keep-zshrc"
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git ~/.oh-my-zsh/custom/plugins/autoswitch_virtualenv
 
 
 echo "=============="
