@@ -9,6 +9,43 @@
         120
     ],
     "vim.useSystemClipboard": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["Left"],
+            "after": ["Nop"]
+        },
+        {
+            "before": ["Right"],
+            "after": ["Nop"]
+        },
+        {
+            "before": ["Down"],
+            "after": ["Nop"]
+        },
+        {
+            "before": ["Up"],
+            "after": ["Nop"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["Left"],
+            "after": ["Nop"]
+        },
+        {
+            "before": ["Right"],
+            "after": ["Nop"]
+        },
+        {
+            "before": ["Down"],
+            "after": ["Nop"]
+        },
+        {
+            "before": ["Up"],
+            "after": ["Nop"]
+        }
+    ],
     "java.errors.incompleteClasspath.severity": "ignore",
     "explorer.confirmDelete": false,
     "terminal.integrated.fontFamily": "Iosevka",
@@ -62,4 +99,6 @@
     ],
     "FSharp.useSdkScripts": true,
     "workbench.colorTheme": "Gruvbox Dark Medium",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "editor.occurrencesHighlight": false
 }
