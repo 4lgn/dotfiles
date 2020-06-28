@@ -162,7 +162,7 @@ super + shift + s
     spotify
 
 super + k
-    KeeWeb
+    keeweb
 
 super + c
     code
