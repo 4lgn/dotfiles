@@ -100,5 +100,13 @@
     "FSharp.useSdkScripts": true,
     "workbench.colorTheme": "Gruvbox Dark Medium",
     "terminal.integrated.shell.linux": "/bin/zsh",
-    "editor.occurrencesHighlight": false
+    "editor.occurrencesHighlight": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.excludeLanguages": ["typescriptreact"]
 }
