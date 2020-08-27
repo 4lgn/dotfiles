@@ -84,7 +84,8 @@
         }
     },
     "[javascript]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[css]": {
         "editor.tabSize": 2
@@ -106,7 +107,14 @@
         "editor.formatOnSave": true
     },
     "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "emmet.excludeLanguages": [
+        "typescriptreact"
+    ],
+    "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "emmet.excludeLanguages": ["typescriptreact"]
+    "liveshare.nameTagVisibility": "Never"
 }

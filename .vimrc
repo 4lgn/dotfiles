@@ -103,22 +103,28 @@ autocmd FileType tex inoremap ,bic \leftrightarrow
 
 
 
-" --- Python Stuff ---
+" SaveAndRun scripts
+let filePath = expand("%")
 
-" Bind F5 to save file if modified and execute python script in a buffer.
-nnoremap <silent> <F5> :call SaveAndExecutePython()<CR>
-vnoremap <silent> <F5> :<C-u>call SaveAndExecutePython()<CR>
+" Save, compile, run C programs
+let outputName = filePath[0:eval(len(filePath) - 3)]
+let cCmd = ".!gcc " . filePath . " -o " . outputName . " && ./" . outputName
+nnoremap <silent> <F5> :call SaveAndRun("C Runner", cCmd)<CR>
+vnoremap <silent> <F5> :<C-u>call SaveAndRun("C Runner", cCmd)<CR>
 
-function! SaveAndExecutePython()
-    " SOURCE [reusable window]: https://github.com/fatih/vim-go/blob/master/autoload/go/ui.vim
+" Run Python scripts
+let pCmd = ".!python " . shellescape(filePath, 1)
+nnoremap <silent> <F6> :call SaveAndRun("Python", pCmd)<CR>
+vnoremap <silent> <F6> :<C-u>call SaveAndRun("Python", pCmd)<CR>
 
+function! SaveAndRun(bufferName, cmd)
     " save and reload current file
     silent execute "update | edit"
 
     " get file path of current file
     let s:current_buffer_file_path = expand("%")
 
-    let s:output_buffer_name = "Python"
+    let s:output_buffer_name = a:bufferName
     let s:output_buffer_filetype = "output"
 
     " reuse existing buffer window if it exists otherwise create a new one
@@ -149,7 +155,7 @@ function! SaveAndExecutePython()
     %delete _
 
     " add the console output
-    silent execute ".!python " . shellescape(s:current_buffer_file_path, 1)
+    silent execute a:cmd
 
     " resize window to content length
     " Note: This is annoying because if you print a lot of lines then your code buffer is forced to a height of one line every time you run this function.
@@ -161,6 +167,4 @@ function! SaveAndExecutePython()
     setlocal readonly
     setlocal nomodifiable
 endfunction
-
-
 

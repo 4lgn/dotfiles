@@ -173,6 +173,9 @@ super + shift + i
 super + ctrl + i
     maim -s | xclip -selection clipboard -t image/png 
 
+super + shift + c
+    _JAVA_AWT_WM_NONREPARENTING=1 rider
+
 # Screen brightness control
 XF86MonBrightnessDown
     sudo light -U 10

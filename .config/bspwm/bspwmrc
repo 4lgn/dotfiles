@@ -50,4 +50,5 @@ setxkbmap -option caps:escape
 # Make US and DK keyboard layout togglable with Shift+Alt
 setxkbmap -layout us,dk -option grp:alt_shift_toggle
 
+export _JAVA_AWT_WM_NONREPARENTING=1
 

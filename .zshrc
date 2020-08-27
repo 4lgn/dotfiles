@@ -124,3 +124,8 @@ prompt_context(){}
 
 # Zsh-syntax-highlighting (must be at the end of .zshrc)
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Fix Java full screen applications (such as JetBrains Rider)
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+export PATH="$PATH:$HOME/.dotnet/tools/"

@@ -90,6 +90,46 @@
 			""
 		],
 		"description": "React Native Function Component With Props"
+	},
+	"React FC": {
+		"prefix": "rfc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"const $1: React.FC = () => {",
+			"  return (",
+			"    <div>",
+			"      $0",
+			"    </div>",
+			"  )",
+			"}",
+			"",
+			"export default $1",
+			""
+		],
+		"description": "React Function Component"
+	},
+	"React Native FC With Props": {
+		"prefix": "rfcp",
+		"body": [
+			"import React from 'react'",
+			"",
+			"interface $1Props {",
+			"  $2",
+			"}",
+			"",
+			"const $1: React.FC<$1Props> = () => {",
+			"  return (",
+			"    <div>",
+			"      $0",
+			"    </div>",
+			"  )",
+			"}",
+			"",
+			"export default $1",
+			""
+		],
+		"description": "React Function Component With Props"
 	}
 }
 
