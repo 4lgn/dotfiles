@@ -34,8 +34,8 @@ picom --xrender-sync-fence &
 dunst &
 # Dropbox
 dropbox &
-# Nm-applet
-nm-applet &
+# Cmst (connman front-end)
+cmst &
 
 # ------- Mouse/Touchpad fixes ------
 # Start libinput gestures

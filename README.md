@@ -1,6 +1,6 @@
 # BSPWM .files
 
-Dot files for my Arch Linux (5.5.2) + bspwm setup used on my Dell XPS 15 9560.
+Dot files for my Arch Linux + bspwm setup used on my Dell XPS 15 9560.
 
 (NOTE: These are the bspwm dotfiles, my i3wm setup is located in the [i3wm branch](https://github.com/Alexrazz/dotfiles/tree/i3wm))
 
@@ -59,8 +59,8 @@ Dot files for my Arch Linux (5.5.2) + bspwm setup used on my Dell XPS 15 9560.
 - `picom`: Compositor
 - `pulseaudio / -alsa`: Audio driver
 - `Spicetify`: Spotify theming CLI tool
-- `NetworkManager`: 'Networking that just works'
-  - `nm-applet`: GTK Applet for NetworkManager
+- `connman`: Network manager
+  - `cmst`: Front-end for connman
 - `pamixer`: Pulseaudio manager
 - `gotop`: Beautiful TUI activity monitor
 - plug

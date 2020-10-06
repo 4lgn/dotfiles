@@ -1,5 +1,5 @@
 {
-    "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "default",
     "editor.fontFamily": "\"Iosevka\"",
     "editor.lineNumbers": "relative",
     "keyboard.dispatch": "keyCode",
