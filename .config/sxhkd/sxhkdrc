@@ -178,16 +178,16 @@ super + shift + c
 
 # Screen brightness control
 XF86MonBrightnessDown
-    sudo light -U 10
+    sudo xbacklight -dec 10
 XF86MonBrightnessUp
-    sudo light -A 10
+    sudo xbacklight -inc 10
 # Volume control
 XF86AudioRaiseVolume
-    /usr/bin/pulseaudio-ctl up 10
+    pamixer -i 10
 XF86AudioLowerVolume
-    /usr/bin/pulseaudio-ctl down 10
+    pamixer -d 10
 XF86AudioMute
-    pactl set-sink-mute 0 toggle
+    pamixer -t
 # Play/pause
 XF86AudioPlay
     dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause 
