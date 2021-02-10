@@ -3,6 +3,9 @@
 sxhkd &
 
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10
+#bspc monitor DP-2 -d 1 2 3
+#bspc monitor HDMI-1 -d 4 5 6
+#bspc monitor eDP-1 -d 7 8 9 10
 
 bspc rule -a URxvt:scratchy sticky=on state=floating rectangle=widthxheight+Xoffset+Yoffset
 
@@ -35,7 +38,9 @@ dunst &
 # Dropbox
 dropbox &
 # Cmst (connman front-end)
-cmst &
+# cmst &
+# network-manager-applet
+nm-applet &
 
 # ------- Mouse/Touchpad fixes ------
 # Start libinput gestures
