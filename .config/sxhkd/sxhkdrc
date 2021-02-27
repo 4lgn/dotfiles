@@ -176,6 +176,9 @@ super + ctrl + i
 super + shift + c
     _JAVA_AWT_WM_NONREPARENTING=1 rider
 
+super + shift + d
+    ~/Scripts/word-lookup/word-lookup.sh
+
 # Screen brightness control
 XF86MonBrightnessDown
     sudo xbacklight -dec 10
