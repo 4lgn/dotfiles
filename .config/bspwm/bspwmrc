@@ -29,7 +29,7 @@ xrdb -load ~/.Xresources
 # Change from ugly 'X' cursor when hovering over background
 xsetroot -cursor_name left_ptr
 # Make betterlockscreen generate and cache a background image for locking
-sudo betterlockscreen -u ~/Documents/Wallpapers/gruvbox.png
+betterlockscreen -u ~/Documents/Wallpapers/gruvbox.png
 # ------- Autostart apps ------
 # Picom
 picom --xrender-sync-fence &
