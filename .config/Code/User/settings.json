@@ -3,7 +3,6 @@
     "editor.fontFamily": "\"Iosevka\"",
     "editor.lineNumbers": "relative",
     "keyboard.dispatch": "keyCode",
-    "window.zoomLevel": 1,
     "editor.rulers": [
         80,
         120
@@ -99,7 +98,7 @@
         "jacoco.xml"
     ],
     "FSharp.useSdkScripts": true,
-    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.colorTheme": "Gruvbox Dark Soft",
     "terminal.integrated.shell.linux": "/bin/zsh",
     "editor.occurrencesHighlight": false,
     "[typescriptreact]": {
@@ -116,5 +115,6 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "liveshare.nameTagVisibility": "Never"
+    "liveshare.nameTagVisibility": "Never",
+    "window.zoomLevel": 1
 }

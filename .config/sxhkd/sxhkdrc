@@ -30,7 +30,7 @@ super F1
 super F2
 	bspc wm -r
 
-# quick bspwm
+# quit bspwm
 super + shift + e
     bspc quit
 
@@ -119,10 +119,6 @@ super + shift + 0
 super + ctrl + {h,j,k,l}
 	bspc node -p {west,south,north,east}
 
-# preselect the ratio
-super + ctrl + {1-9}
-	bspc node -o 0.{1-9}
-
 # cancel the preselection for the focused node
 super + ctrl + space
 	bspc node -p cancel
@@ -178,6 +174,12 @@ super + shift + c
 
 super + shift + d
     ~/Scripts/word-lookup/word-lookup.sh
+
+super + ctrl + 1
+    ~/.screenlayout/1.sh && bspwm wm -r
+
+super + ctrl + 2
+    ~/.screenlayout/2.sh && bspc wm -r
 
 # Screen brightness control
 XF86MonBrightnessDown

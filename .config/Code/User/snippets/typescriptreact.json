@@ -98,9 +98,7 @@
 			"",
 			"const $1: React.FC = () => {",
 			"  return (",
-			"    <div>",
-			"      $0",
-			"    </div>",
+			"    $0",
 			"  )",
 			"}",
 			"",
@@ -109,7 +107,7 @@
 		],
 		"description": "React Function Component"
 	},
-	"React Native FC With Props": {
+	"React FC With Props": {
 		"prefix": "rfcp",
 		"body": [
 			"import React from 'react'",
@@ -120,9 +118,7 @@
 			"",
 			"const $1: React.FC<$1Props> = () => {",
 			"  return (",
-			"    <div>",
-			"      $0",
-			"    </div>",
+			"    $0",
 			"  )",
 			"}",
 			"",

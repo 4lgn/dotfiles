@@ -3,6 +3,7 @@ URxvt*scrollBar: 	false
 URxvt*font:		    xft:Iosevka:style=regular:size=12
 URxvt*iso14755:		false
 URxvt*iso14755_52:	false
+Xcursor.size: 16
 
 !!! Gruvbox theme
 ! hard contrast: *background: #1d2021

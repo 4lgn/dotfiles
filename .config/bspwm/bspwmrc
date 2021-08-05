@@ -2,10 +2,18 @@
 
 sxhkd &
 
-bspc monitor -d 1 2 3 4 5 6 7 8 9 10
-#bspc monitor DP-2 -d 1 2 3
-#bspc monitor HDMI-1 -d 4 5 6
-#bspc monitor eDP-1 -d 7 8 9 10
+#bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8 9 10
+bspc monitor HDMI-1 -d 1 2 3 4 5
+bspc monitor eDP-1 -d 6 7 8 9 10
+
+# Sometimes when using an external monitor that is larger than the base laptop
+# screen size, padding would be applied to make the nodes the size of the
+# laptop resolution - we don't want that, as the nodes should fill out the
+# entire height/width of the monitor, so we set all padding to 0.
+bspc config top_padding 0
+bspc config right_padding 0
+bspc config bottom_padding 0
+bspc config left_padding 0
 
 bspc rule -a URxvt:scratchy sticky=on state=floating rectangle=widthxheight+Xoffset+Yoffset
 
