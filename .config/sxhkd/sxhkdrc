@@ -176,7 +176,7 @@ super + shift + d
     ~/Scripts/word-lookup/word-lookup.sh
 
 super + ctrl + 1
-    ~/.screenlayout/1.sh && bspwm wm -r
+    ~/.screenlayout/1.sh && bspc wm -r
 
 super + ctrl + 2
     ~/.screenlayout/2.sh && bspc wm -r
