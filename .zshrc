@@ -128,4 +128,4 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # Fix Java full screen applications (such as JetBrains Rider)
 export _JAVA_AWT_WM_NONREPARENTING=1
 
-export PATH="$PATH:$HOME/.dotnet/tools/"
+export PATH="$PATH:$HOME/.dotnet/tools/:$HOME/.yarn/bin/"

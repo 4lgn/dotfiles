@@ -84,7 +84,8 @@
     },
     "[javascript]": {
         "editor.tabSize": 2,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
     },
     "[css]": {
         "editor.tabSize": 2
@@ -113,7 +114,8 @@
         "typescriptreact"
     ],
     "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
     },
     "liveshare.nameTagVisibility": "Never",
     "window.zoomLevel": 1
