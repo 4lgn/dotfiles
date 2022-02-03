@@ -41,7 +41,7 @@ curl https://i.imgur.com/XCaXGFB.png > ~/Documents/Wallpapers/gruvbox.png
 mkdir ~/.local &> /dev/null
 mkdir ~/.local/share &> /dev/null
 mkdir ~/.local/share/fonts &> /dev/null
-curl https://raw.githubusercontent.com/adi1090x/polybar-themes/master/polybar-8/fonts/icomoon-feather.ttf > icomoon-feather.ttf
+curl https://raw.githubusercontent.com/adi1090x/polybar-themes/4b0e9a95d48cc3e9b85934d33fcb776eae4a7bd7/polybar-4/fonts/icomoon-feather.ttf > icomoon-feather.ttf
 mv icomoon-feather.ttf ~/.local/share/fonts/
 fc-cache -vf ~/.local/share/fonts/
 
