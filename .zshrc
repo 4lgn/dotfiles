@@ -129,3 +129,6 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 export PATH="$PATH:$HOME/.dotnet/tools/:$HOME/.yarn/bin/"
+
+# NVM
+source /usr/share/nvm/init-nvm.sh

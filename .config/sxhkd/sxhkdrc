@@ -161,7 +161,7 @@ super + k
     keeweb
 
 super + c
-    code
+    code-insiders
 
 super + shift + i
     imgur-screenshot
@@ -180,6 +180,18 @@ super + ctrl + 1
 
 super + ctrl + 2
     ~/.screenlayout/2.sh && bspc wm -r
+
+super + ctrl + 3
+    ~/.screenlayout/2-1.sh && bspc wm -r
+
+super + shift + b
+    echo -e "power on\nconnect AC:1D:06:5A:F1:D4" | bluetoothctl
+
+super + shift + n
+    sudo xbacklight -set 1 && redshift -PO 1500 -b .5
+
+super + shift + ctrl + n
+    sudo xbacklight -set 100 && redshift -x
 
 # Screen brightness control
 XF86MonBrightnessDown
